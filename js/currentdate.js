@@ -6,7 +6,7 @@ const date = {
   minute: "numeric",
   second: "numeric",
 };
-document.getElementById("currentdate").textContent = new Date(
+document.getElementById("lastupdated").textContent = new Date(
   document.lastModified
 ).toLocaleDateString("en-US", date);
 
