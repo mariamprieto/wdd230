@@ -7,5 +7,28 @@ header h1 {
 main h2 {
     font-size: 30px;
 }
+header img {
+    width: 170px;
+    
 }
+
+main ul li {
+    font-size: 18px;
+}
+
+main p {
+    
+    font-size: 15px;}
+
+footer {
+
+    box-shadow: 0 0 30px black;
+    
+    font-size: 18px;
+    
+}
+
+}
+
+
     
