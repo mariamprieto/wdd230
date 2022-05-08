@@ -17,12 +17,23 @@ footer{
 }
 
 h2,
-h1 {
+h1, h3 {
     font-family: 'Zilla Slab', serif;
     color: #a46e66;
 
 }
 
+h3{
+    margin:20px;
+    font-size:25px;
+    
+}
+
+ol{
+    font-size:18px;
+    padding: 1em;
+
+}
 p {
     font-size: 18px;
     text-align: justify;
@@ -55,6 +66,12 @@ header {
     width: 100%;
 
 }
+
+.personas {
+    max-width: 350px;
+    height: auto;
+    width: 100%;}
+
 footer {
 
     background-color: #325b5e;
@@ -169,9 +186,11 @@ div ul li {
 
     p,
     span,
-    footer {
+    footer, ol{
         font-size: 22px;
     }
+
+   
 
     header {
         display: grid;
