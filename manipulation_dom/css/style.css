@@ -11,7 +11,7 @@ body {
     justify-content: center;
     font-size: 18px;
     font-family: Acme, Arial, sans-serif;
-   
+
 }
 
 h1 {
@@ -51,17 +51,17 @@ label {
 
 .list {
     margin: 0.2rem;
-    
+
 }
 
 ul {
     margin: 1rem;
     list-style: none;
-   
+
 }
 
 li {
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
