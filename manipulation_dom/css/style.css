@@ -22,7 +22,7 @@ main {
     margin: 0.5rem auto;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 0.5rem;
-    background-color: #bed;
+    background-color:aquamarine;
     display: grid;
     grid-template-columns: 1fr;
     width: 95%;
@@ -51,8 +51,11 @@ label {
 
 .list {
     margin: 0.2rem;
+    
 
 }
+
+
 
 ul {
     margin: 1rem;
@@ -67,6 +70,7 @@ li {
     justify-content: space-between;
     margin-bottom: 0.5rem;
 }
+
 
 @media only screen and (min-width: 32.5em) {
     h1 {
