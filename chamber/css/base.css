@@ -195,10 +195,10 @@ nav ul.open {
 
 }
 
-.place-event h1,
-.place-weather h1,
-.place-news h1, .place-spotlight1 h1, .place-spotlight2 h1,
-.place-spotlight3 h1
+.place-event h2,
+.place-weather h2,
+.place-news h2, .place-spotlight1 h2, .place-spotlight2 h2,
+.place-spotlight3 h2
 {
     text-align: center;
     padding: 10px;
@@ -217,7 +217,7 @@ nav ul.open {
     box-shadow: 0 0 20px #202927;
     
 }
-.place-event h2 {
+.place-event h3 {
     text-align: center;
     padding: 10px;
     color: #202927;
@@ -270,7 +270,7 @@ nav ul.open {
     font-size: 34px;
 }
 
-.place-weather h2 {
+.place-weather h3 {
     
     padding: 5px;
     color: #202927;
@@ -375,11 +375,11 @@ footer {
 
 }
 
-footer h1{
+footer h2{
     color:#f2e8e1;
 
 }
-footer h2 {
+footer h3 {
     color: #f2e8e1;
 
 }
