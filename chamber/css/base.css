@@ -8,9 +8,8 @@
 
 /*----------- apply a general style--------------*/
 header,
-.container,
-footer,
-.date {
+.content,
+footer,.script {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
@@ -47,7 +46,9 @@ header {
     justify-content: center;
 
 }
-
+.script{
+    box-shadow: 0 0 20px #202927;
+}
 
 .logo img {
     max-width: 100px;
@@ -80,7 +81,7 @@ header {
 
 }
 
-.date {
+.date, .message {
     background-color: #325b5e;
     color: #f2e8e1;
     text-align: center;
@@ -196,7 +197,9 @@ nav ul.open {
 
 .place-event h1,
 .place-weather h1,
-.place-news h1, .place-spotlight1 h1, .place-spotlight2 h1{
+.place-news h1, .place-spotlight1 h1, .place-spotlight2 h1,
+.place-spotlight3 h1
+{
     text-align: center;
     padding: 10px;
     color: #202927;
@@ -207,6 +210,13 @@ nav ul.open {
 
 }
 
+.place-join {
+    background-color: #f2e8e1;
+    margin: 5px 5px;
+    padding: 10px;
+    box-shadow: 0 0 20px #202927;
+    
+}
 .place-event h2 {
     text-align: center;
     padding: 10px;
@@ -287,10 +297,6 @@ nav ul.open {
 }
 
 
-.place-join,
-.place-spotlight3 {
-    display: none;
-}
 
 .spotlight {
     background-color: #f2e8e1;
@@ -300,10 +306,10 @@ nav ul.open {
 
 }
 
-.place-spotlight1, .place-spotlight2{
+.place-spotlight1, .place-spotlight2, .place-spotlight3{
     box-shadow: 0 0 20px #202927;
     margin: 5px 5px;
-        padding: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -312,6 +318,12 @@ nav ul.open {
 
 .spotlight img{
     margin:5px;
+    
+}
+
+.place-join,
+.place-spotlight3 {
+    display: none;
 }
 
 .description {
@@ -326,6 +338,7 @@ nav ul.open {
     color: #202927;
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
 
 }
 .subtitle{
@@ -361,6 +374,16 @@ footer {
     flex-direction: column;
 
 }
+
+footer h1{
+    color:#f2e8e1;
+
+}
+footer h2 {
+    color: #f2e8e1;
+
+}
+
 
 .address,
 .contact {

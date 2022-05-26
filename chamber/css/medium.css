@@ -1,9 +1,28 @@
 @media only screen and (min-width:35rem) {
 
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2,
+    span {
+        font-size: 1.5rem;
+    }
+
+    .socialmedia img {
+        max-width: 40px;
+        padding: 5px;
+
+
+    }
+
+
+
     header {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     #hamburger span {
@@ -12,109 +31,87 @@
 
     }
 
-    .content {
+    .logo img {
+        max-width: 180px;
+        height: auto;
+        margin: 10px;
+    }
 
+
+    .date,
+    .message {
+        font-size: 24px;
+
+    }
+
+    .place-hero,
+    .heroImg {
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .heroBtn {
+        padding: 25px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .content {
         display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        justify-content: center;
+        grid-template-columns: auto .5fr;
+
     }
 
     .place-hero {
-        grid-column: 1/3;
-        margin: 0;
+        grid-column: 1/4;
+        grid-row: 1/2;
     }
 
     .place-news {
+        grid-column: 1/4;
         grid-row: 2/3;
-        grid-column: 1/3;
-        margin: 0;
-
-    }
-
-
-
-    .place-join {
-        display: block;
-        grid-row: 4/5;
-        grid-column: 1/3;
-        border: 1px solid #325b5e;
-        width: 100%;
-        height: 200px;
-        background-color: #f2e8e1;
-        color: #325b5e;
-        margin: 0;
-
-    }
-
-    .place-event {
-        margin: 0;
-        grid-column: 1/2;
-
-    }
-
-    .place-weather {
-        margin: 0;
-        grid-column: 2/3;
-
-    }
-
-
-
-    nav ul li a {
-        font-size: large;
-    }
-
-    .socialmedia img {
-        max-width: 35px;
-
     }
 
     .spotlight {
         display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: row;
+        grid-column: 1/4;
         grid-row: 3/4;
-        grid-column: 1/3;
-        margin: 0;
     }
 
-    .place-spotlight {
-        height: 300px;
-
+    .place-join {
+        display: block;
+        grid-column: 1/4;
+        grid-row: 4/5;
+    }
+    .place-event{
+    height:97%;
+    
     }
 
-
-
-
-
-    h1 {
-        font-size: 32px;
-    }
-
-    h2,
-
-    .date {
-        font-size: 28px;
-    }
-
-    h3 {
+    .JoinBtn {
+        display: block;
+        color: #f2e8e1;
+        background-color: #325b5e;
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
         font-size: 24px;
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+        box-shadow: 0 0 20px #202927;
     }
 
-    h3 {
-        font-size: 22px;
-    }
-
-    p {
+    .join_content {
         font-size: 18px;
+        margin: 10px;
+        text-align: center;
     }
 
     .logo img {
-       max-width: 250px;
-        
+        max-width: 250px;
+
     }
 
     .container {
