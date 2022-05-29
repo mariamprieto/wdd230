@@ -1,3 +1,4 @@
+/*----------- apply all HTML--------------*/
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ footer,.script {
     margin: 0 auto;
 
 }
-
+/*----------- apply individual elements--------------*/
 h1,
 h2,
 h3,
@@ -35,6 +36,7 @@ span {
     font-size: 1rem;
 }
 
+/*----------- apply style header--------------*/
 
 header {
     background-color: #f2e8e1;
@@ -46,50 +48,19 @@ header {
     justify-content: center;
 
 }
-.script{
-    box-shadow: 0 0 20px #202927;
-}
-
-.logo img {
-    max-width: 100px;
-    height: auto;
-    margin: 10px;
-
-}
-
-
 .name_company {
     display: flex;
     flex-direction: column;
     letter-spacing: 1pt;
     text-align: center;
+    margin: 5px;
 
 }
-
-
-
 .socialmedia {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
 }
-
-.socialmedia img {
-    max-width: 30px;
-    padding: 5px;
-
-
-}
-
-.date, .message {
-    background-color: #325b5e;
-    color: #f2e8e1;
-    text-align: center;
-    font-size: 0.8rem;
-    letter-spacing: 1pt;
-    padding: 10px;
-}
-
 #hamburger {
     background-color: #325b5e;
     border: none;
@@ -148,36 +119,46 @@ nav ul.open {
     display: block;
 }
 
+/*----------- apply date and message--------------*/
+.date,
+.message {
+    background-color: #325b5e;
+    color: #f2e8e1;
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 1pt;
+    padding: 10px;
+}
+.script{
+    box-shadow: 0 0 20px #202927;
+}
+
+
+/*----------- apply main--------------*/
+
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 
 }
 
-
+/*----------- apply hero image--------------*/
 .place-hero {
-    position: relative;
+   
     width: 100%;
-    height: auto;
-    max-width: 420px;
     background-color: #f2e8e1;
     margin: 5px 5px;
 
 }
 
 
-.heroImg {
-    width: 420px;
-    padding: 5px;
-    max-width: 100%;
-}
-
 .heroBtn {
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
+    position:absolute;
+    top:20px;
+    left: 25px;
     color: #f2e8e1;
     background-color: #325b5e;
     padding: 10px;
@@ -248,28 +229,35 @@ nav ul.open {
     margin: 5px 5px;
     padding: 10px;
     box-shadow: 0 0 20px #202927;
+   
 
 }
 
 
-.imagen_wheater {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
 
 .degree {
     font-size: 34px;
     font-weight: bold;
     padding: 10px;
+    
 }
 
-.degree span {
-    font-weight: bold;
-    font-size: 34px;
+.degree input{
+    font-size:18px;
+    width:50px;
+    padding: 5px;
 }
 
+#calcTemp{
+    padding:5px;
+    background-color: #325b5e;
+    color: #f2e8e1;
+}
+
+#windSpeed{
+    width:100px;
+    padding:5px;
+}
 .place-weather h3 {
     
     padding: 5px;
@@ -359,14 +347,8 @@ footer {
     color: #f2e8e1;
     
 
-
 }
 
-.footer-logo {
-    max-width: 200px;
-    height: auto;
-    margin: 10px 5px;
-}
 
 .container {
     display: flex;

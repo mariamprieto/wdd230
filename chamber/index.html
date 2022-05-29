@@ -20,9 +20,12 @@
 
 <body>
     <header>
-        <div class="logo">
+        <picture class="logo">
+            <source media="(max-width:320px)" srcset="images/beach1.png">
+            <source media="(max-width:500px)" srcset="images/beach2.png">
+            <source media="(max-width:800px)" srcset="images/beach3.png">
             <img src="images/beach.png" alt="Venezuela Beach" />
-        </div>
+        </picture>
         <section class="container_company">
 
             <div class="name_company">
@@ -34,10 +37,10 @@
         </section>
         <div class="socialmedia">
             <a href="https://www.facebook.com">
-                <img src="images/facebook_icon.png" alt="FaceBook Social Media">
+                <img src="images/facebook_icon1.png" alt="FaceBook Social Media">
             </a>
             <a href="https://www.linkedin.com">
-                <img src="images/linkedin_icon.png" alt="Linkedln Social Media">
+                <img src="images/linkedin_icon1.png" alt="Linkedln Social Media">
             </a>
         </div>
 
@@ -54,17 +57,19 @@
 
     </header>
     <div class="script">
-    <div class="date" id="date"></div>
-    <div class="message"></div>
+        <div class="date" id="date"></div>
+        <div class="message"></div>
     </div>
-
     <main class="content">
-        <div class="place-hero">
-            <img class="heroImg" src="images/playas-de-venezuela.jpg" alt="principal imagen" />
-            <a class="heroBtn" href="#">Join the Chamber</a>
+        <picture class="place-hero">
+            <source media="(min-width:320px)" srcset="images/playas1.jpg">
+            <source media="(min-width:500px)" srcset="images/playas2.jpg">
+            <source media="(min-width:800px)" srcset="images/playas3.jpg">
+            <img src="images/playa.jpg" alt="Venezuela Beach" />
+        </picture>
 
-        </div>
-        
+        <a class="heroBtn" href="#">Join the Chamber</a>
+
         <div class="place-event">
             <h2>Ribbon Cutting</h2>
             <h3>🔹 The Diamond Shack</h3>
@@ -73,49 +78,74 @@
         </div>
         <div class="place-weather">
             <h2 class="weather">Weather</h2>
-            <div class="imagen_wheater"><img src="images/wheater_icon.png" alt="weather picture">
-            <p class="degree"><span>33</span>&#176;C</p></div>
+            <picture class="imagen_wheater">
+                <source media="(min-width:320px)" srcset="images/wheater_icon1.png">
+                <source media="(min-width:500px)" srcset="images/wheater_icon2.jpeg">
+                <source media="(min-width:800px)" srcset="images/wheater_icon3.jpeg">
+                <img src="images/wheater_icon2.jpeg" alt="weather picture">
+                </picture>
+        <p class="degree"><input type="number" id="temp" placeholder="33&deg;F"></p>
             <h3> Partly Cloudy</h3>
-            <p class="ws">Wind Speed: <span>2.5km/h</span></p>
-            <p class="wc">Wind Chill: <span>N/A</span></p>
+            <p class="ws">Wind Speed: <input type="number" id="windSpeed"></p>
+            <p class="wc">Wind Chill: <span id="wChill"></span></p>
+            <button id="calcTemp">Calculate temperature</button>
         </div>
 
-            <div class="place-news">
-                <h2>News Release</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.</p>
-            </div>
+        <div class="place-news">
+            <h2>News Release</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
 
-            <div class="spotlight">
-                <div class="place-spotlight1">
-                    <h2>Thankful Transport</h2>
-                    <img src="images/transportation.png" alt="transportation picture">
-                    <h3 class="subtitle">"We get it there  for you"</h3>
-                    <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
-                    <p class="phone">999-9999-9999-999</p>
-                </div>
-                <div class="place-spotlight2">
-                    <h2>Choose your Tour</h2>
-                    <img src="images/tour_icon.jpeg" alt="expedition picture">
-                    <h3 class="subtitle">"Travel Safe"</h3>
-                    <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
-                    <p class="phone">999-9999-9999-999</p>
-                </div>
-                <div class="place-spotlight3">
+        <div class="spotlight">
+            <div class="place-spotlight1">
+                <h2>Thankful Transport</h2>
+                <picture class="imagen_spotligth1">
+                    <source media="(min-width:320px)" srcset="images/transportation1.png">
+                    <source media="(min-width:500px)" srcset="images/transportation2.png">
+                    <source media="(min-width:800px)" srcset="images/transportation3.png">
+                    <img src="images/transportation2.png" alt="transportation picture">
+                </picture>
+                <h3 class="subtitle">"We get it there for you"</h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
+                <p class="phone">999-9999-9999-999</p>
+            </div>
+            <div class="place-spotlight2">
+                <h2>Choose your Tour</h2>
+                <picture class="imagen_spotligth2">
+                    <source media="(min-width:320px)" srcset="images/tour_icon1.jpeg">
+                    <source media="(min-width:500px)" srcset="images/tour_icon2.jpeg">
+                    <source media="(min-width:800px)" srcset="images/tour_icon3.jpeg">
+                    <img src="images/tour_icon2.jpeg" alt="expedition picture">
+                </picture>
+
+                <h3 class="subtitle">"Travel Safe"</h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
+                <p class="phone">999-9999-9999-999</p>
+            </div>
+            <div class="place-spotlight3">
                 <h2>Contributes to the Environment</h2>
-                <img src="images/enviroment_icon.png" alt="enviroment picture">
+                <picture class="imagen_spotligth3">
+                    <source media="(min-width:320px)" srcset="images/enviroment_icon1.png">
+                    <source media="(min-width:500px)" srcset="images/enviroment_icon2.png">
+                    <source media="(min-width:800px)" srcset="images/enviroment_icon3.png">
+                    <img src="images/enviroment_icon2.png" alt="enviroment picture">
+                </picture>
+
                 <h3 class="subtitle">"Taking care of our environment is a duty"</h3>
                 <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
-                <p class="phone">999-9999-9999-999</p></div>
+                <p class="phone">999-9999-9999-999</p>
             </div>
-            <div class="place-join">
-                <a class="JoinBtn" href="#">Join Us!</a>
-                <p class="join_content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam modi sus a qui aliquid omnis doloremque.</p>
-            </div>
+        </div>
+        <div class="place-join">
+            <a class="JoinBtn" href="#">Join Us!</a>
+            <p class="join_content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam modi sus a
+                qui aliquid omnis doloremque.</p>
+        </div>
 
-           
+
     </main>
 
 
@@ -123,8 +153,14 @@
 
 
         <div class="container">
+        <picture class="footer-logo">
+            <source media="(min-width:320px)" srcset="images/beach1.png">
+            <source media="(min-width:500px)" srcset="images/beach2.png">
+            <source media="(min-width:800px)" srcset="images/beach3.png">
+            <img src="images/beach.png" alt="Venezuela Beach" />
+        </picture>
 
-            <img class="footer-logo" src="images/beach.png" alt="Beach's Venezuela" />
+
             <div class="information-general">
 
                 <h2> Venezuela</h2>
@@ -152,7 +188,10 @@
 
         </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/message.js"></script>
+    <script src="js/wheater.js"></script>
+    <script src="js/menu.js"></script>
 
 </body>
 

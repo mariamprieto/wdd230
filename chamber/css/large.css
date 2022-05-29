@@ -66,10 +66,12 @@
     .heroImg {
         grid-column: 2/4;
         grid-row: 1/4;
-        height: 100%;
+        
+        
 
     }
 
+      
 
     .place-hero {
         margin-top: 10px;

@@ -18,7 +18,6 @@
     }
 
 
-
     header {
         display: flex;
         align-items: center;
@@ -31,12 +30,7 @@
 
     }
 
-    .logo img {
-        max-width: 180px;
-        height: auto;
-        margin: 10px;
-    }
-
+   
 
     .date,
     .message {
@@ -44,11 +38,7 @@
 
     }
 
-    .place-hero,
-    .heroImg {
-        max-width: 768px;
-        width: 100%;
-    }
+    
 
     .heroBtn {
         padding: 25px;
@@ -109,11 +99,7 @@
         text-align: center;
     }
 
-    .logo img {
-        max-width: 250px;
-
-    }
-
+    
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
