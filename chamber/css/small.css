@@ -315,6 +315,10 @@ header {
 
 /*----------- apply display:none--------------*/
 
+.place-join,
+.place-spotlight3 {
+    display: none;
+}
 
 /*----------- apply style footer--------------*/
 footer {
@@ -322,20 +326,18 @@ footer {
     box-shadow: 0 0 20px #202927;
     text-align: center;
     color: #f2e8e1;
-
 }
 
 .information-footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
 .image-footer{
     margin:10px;
-
 }
+
 .image-footer img{
     border-radius: 50%;
 }
@@ -344,10 +346,10 @@ footer {
 .contact {
     margin-bottom: 10px;
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .last-update {
-    font-size: 18px;
+    font-size: 16px;
     border-top: 1px solid #f2e8e1;
 }
