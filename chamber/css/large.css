@@ -1,56 +1,19 @@
 @media only screen and (min-width:64rem) {
 
-    h1 {
-        font-size: 2.5rem;
-    }
+    
 
-
-
-    .place-event h1,
-    .place-weather h1,
-    .place-news h1,
-    .place-spotlight1 h1,
-    .place-spotlight2 h1 {
-        font-size: 32px;
-
-    }
-
-    .place-event p,
-    .place-news p {
-        font-size: 24px;
-
-    }
-
-    .place-event a {
-        font-size: 24px;
-
-
-    }
-
-    .JoinBtn {
-        font-size: 30px;
-    }
-
-
-    .join_content {
-        font-size: 22px;
-
-    }
-
-
-
-    nav #hamburger {
+    .menu #hamburger {
         display: none;
     }
 
 
-    nav ul {
+    .menu ul {
         display: flex;
         flex-direction: row;
 
     }
 
-    nav ul li a {
+    .menu ul li a {
         font-size: 20px;
 
     }
@@ -62,20 +25,12 @@
         grid-template-rows: auto;
     }
 
-    .place-hero,
-    .heroImg {
-        grid-column: 2/4;
-        grid-row: 1/4;
-        
-        
+.hero-image {
+    grid-column: 2/3;
+    
 
-    }
 
-      
-
-    .place-hero {
-        margin-top: 10px;
-    }
+}
 
     .place-event {
         grid-column: 1/2;

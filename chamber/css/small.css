@@ -48,6 +48,7 @@ header {
     font-size: 24px;
     margin: 0;
     text-align: center;
+    margin-top:5px;
 }
 
 .name_company p {
@@ -59,12 +60,14 @@ header {
 .socialmedia {
     display: flex;
     flex-direction: row;
+    margin-top: 5px;
     padding: 5px;
+    width: 50px;
 }
 
 .socialmedia img {
     border-radius: 50%;
-    width: 25px;
+    width: 100%;
 }
 
 #hamburger {
@@ -79,6 +82,7 @@ header {
     background-color: #325b5e;
     box-shadow: 0 0 20px #202927;
     padding: 3px;
+    margin-top:5px;
     margin-right: 10px;
 }
 
@@ -128,6 +132,7 @@ header {
     padding: 5px;
     background-color: #325b5e;
     color: #f2e8e1;
+    font-size: 16px;
 }
 
 /*----------- apply style main content--------------*/
