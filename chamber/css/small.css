@@ -11,9 +11,9 @@
 header,
 main,
 footer {
-    max-width: 960px;
+    max-width: 1290px;
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
 
 }
 
@@ -29,18 +29,17 @@ header {
 .information_company {
     display: grid;
     grid-template-columns: .3fr 1.5fr .3fr .3fr;
-    grid-template-rows: 0.5fr auto;
     justify-content: center;
     align-items: center;
 }
 
 .logo {
-    width: 50px;
+    width: 60px;
     margin: 5px;
 }
 
 .logo img {
-    max-width: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
@@ -126,21 +125,16 @@ header {
 
 .date-information {
     grid-column: 1/5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     padding: 5px;
     background-color: #325b5e;
     color: #f2e8e1;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /*----------- apply style main content--------------*/
 
 .content {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: .5fr .5fr .5fr .5fr auto;
     margin-top: 5px;
     margin-bottom: 5px;
     box-shadow: 0 0 20px #202927;
@@ -151,7 +145,6 @@ header {
 .hero-image {
     position: relative;
     margin-bottom: 5px;
-
 
 }
 
@@ -179,11 +172,10 @@ header {
 .place-news h2 {
     text-align: center;
     padding: 10px;
-    color: #202927;
+    color: #2F5233;
     font-weight: bold;
     font-size: 22px;
-    text-shadow: 0 0 0.2em green, 0 0 0.2em green,
-        0 0 0.2em green;
+    text-shadow: #202927 0.1em 0.1em 0.2em;
 }
 
 .place-event p,
@@ -198,7 +190,7 @@ header {
     background-color: #f2e8e1;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 0 0 20px #202927;
 }
 
@@ -252,9 +244,17 @@ header {
 
 /*----------- apply style place-spotlight--------------*/
 
+.spotlight{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
 .place-spotlight1,
-.place-spotlight2,
-.place-spotlight3 {
+.place-spotlight2{
+    width:250px;
     background-color:#325b5e;
     box-shadow: 0 0 20px #202927;
     margin: 5px 5px;
@@ -270,11 +270,10 @@ header {
 .place-spotlight3 h2 {
     text-align: center;
     padding: 10px;
-    color: #202927;
+    color:#f2e8e1;
     font-weight: bold;
     font-size: 22px;
-    text-shadow: 0 0 0.2em whitesmoke, 0 0 0.2em whitesmoke,
-        0 0 0.2em wheat;
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .description {
@@ -332,6 +331,7 @@ footer {
     text-align: center;
     color: #f2e8e1;
 }
+
 
 .information-footer {
     display: flex;

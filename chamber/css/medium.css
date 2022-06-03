@@ -1,8 +1,7 @@
 @media only screen and (min-width:35rem) {
 
     .logo {
-        width: 100px;
-
+        width: 200px;
     }
 
     .name_company h1 {
@@ -15,7 +14,7 @@
     }
 
     .socialmedia {
-        width: 75px;
+        width: 100px;
     }
 
     .date-information {
@@ -28,8 +27,7 @@
     }
 
     .content {
-
-        grid-template-columns: 0.5fr 0.5fr;
+        display: grid;
         margin-top: 5px;
         margin-bottom: 5px;
         box-shadow: 0 0 20px #202927;
@@ -37,8 +35,6 @@
 
     .hero-image {
         grid-column: 1/3;
-
-
     }
 
     .place-news {
@@ -49,11 +45,16 @@
     .spotlight {
         grid-column: 1/3;
         grid-row: 3/4;
-        display: flex;
-        flex-direction: rows;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        margin:0;
+
     }
+        .place-spotlight1,
+        .place-spotlight2,
+        .place-spotlight3{
+            width:280px;
+        }
 
     .place-join {
         grid-column: 1/3;
@@ -65,10 +66,27 @@
         margin-right: 10px;
     }
 
+    .information-footer h2,
+    .place-event h2,
+    .place-weather h2,
+    .place-news h2,
+    .place-spotlight1 h2,
+    .place-spotlight2 h2,
+    .place-spotlight3 h2 {
+        font-size: 26px;
+    }
+
+      .information-footer p,
+         .place-event p,
+         .place-weather p,
+         .place-news p,
+         .place-spotlight1 p,
+         .place-spotlight2 p,
+         .place-spotlight3 p, .place-join p {
+             font-size: 18px;
+         }
     .information-footer {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 2fr 1fr;
 
     }
 
@@ -77,17 +95,8 @@
     }
 
 
-    .information-general .address {
-        grid-column: 2/3;
-
-    }
-
-    .contact {
-        grid-column: 3/4;
-    }
-
     .last-update {
         grid-column: 1/4;
-      
+
     }
 }
