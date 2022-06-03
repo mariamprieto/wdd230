@@ -1,11 +1,9 @@
 const localtemp = document.querySelector("#temp");
 const wSpeed = document.querySelector("#windSpeed");
-const btn = document.querySelector("#calcTemp");
 const windchill = document.querySelector("#wChill");
 
 
 
-btn.addEventListener("click", () => {
   const temp = parseInt(localtemp.value);
   const windSpeed = parseInt(wSpeed.value);
 
@@ -24,5 +22,6 @@ btn.addEventListener("click", () => {
     result = "";
   }
 
-  windchill.textContent = result;
-});
+windchill.textContent = result;
+  
+

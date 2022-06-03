@@ -5,7 +5,6 @@
         display: none;
     }
 
-
     .menu ul {
         display: flex;
         flex-direction: row;
@@ -17,7 +16,6 @@
 
     .name_company h1 {
         font-size: 34px;
-
     }
 
     .date-information {
@@ -34,78 +32,80 @@
         width: 300px;
         grid-column: 1/2;
         grid-row: 2/3;
-
     }
 
     .place-join {
         width: 300px;
         grid-column: 1/2;
         grid-row: 3/4;
-
     }
 
- .hero-image{
-     margin:10px;
-     grid-column:2/3;
-     grid-row:1/3;
-       
- }
- .hero-image img{
-    padding:10px;
-     width:100%;
-    height: 100%;
-    object-fit: cover;
-  
+    .heroBtn {
+        top: 10px;
+        font-size: 30px;
+    }
 
+    .hero-image {
+        margin: 10px;
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
 
- }
+    .hero-image img {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
-   .information-footer h2,
-   .place-event h2,
-   .place-weather h2,
-   .place-news h2,
-   .place-spotlight1 h2,
-   .place-spotlight2 h2,
-   .place-spotlight3 h2 {
-       font-size: 32px;
-   }
+    .information-footer h2,
+    .place-event h2,
+    .place-weather h2,
+    .place-news h2,
+    .place-spotlight1 h2,
+    .place-spotlight2 h2,
+    .place-spotlight3 h2 {
+        font-size: 32px;
+    }
 
-   .information-footer p,
-   .place-event p,
-   .place-weather p,
-   .place-news p,
-   .place-spotlight1 p,
-   .place-spotlight2 p,
-   .place-spotlight3 p,
-   .place-join p {
-       font-size: 22px;
-   }
+    .information-footer p,
+    .place-event p,
+    .place-weather p,
+    .place-news p,
+    .place-spotlight1 p,
+    .place-spotlight2 p,
+    .place-spotlight3 p,
+    .place-join p {
+        font-size: 22px;
+    }
 
- .spotlight {
+    .spotlight {
         grid-column: 3/4;
         grid-row: 1/4;
         flex-direction: column;
     }
 
     .place-spotlight1,
-    .place-spotlight2{
-        width:300px;
+    .place-spotlight2 {
+        width: 300px;
     }
-        .ws input{
-      width:100px;}
-  
-        
-        .place-spotlight3 {
-            width: 300px;
-            background-color: #325b5e;
-            box-shadow: 0 0 20px #202927;
-            margin: 5px 5px;
-            padding: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+
+    .ws input {
+        width: 100px;
+    }
+
+
+    .place-spotlight3 {
+        width: 300px;
+        background-color: #325b5e;
+        box-shadow: 0 0 20px #202927;
+        margin: 5px 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
     .place-news {
         grid-column: 2/3;
