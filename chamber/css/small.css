@@ -1,0 +1,353 @@
+/*----------- apply all HTML--------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Antic Slab', serif;
+
+}
+
+/*----------- apply a general style--------------*/
+header,
+main,
+footer {
+    max-width: 960px;
+    width: 100%;
+    margin: 0;
+
+}
+
+/*----------- apply style header--------------*/
+
+header {
+    background-color: #f2e8e1;
+    box-shadow: 0 0 20px #202927;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.information_company {
+    display: grid;
+    grid-template-columns: .3fr 1.5fr .3fr .3fr;
+    grid-template-rows: 0.5fr auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin: 5px;
+}
+
+.logo img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.name_company h1 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+.name_company p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.socialmedia img {
+    border-radius: 50%;
+    width: 25px;
+}
+
+#hamburger {
+    background-color: #325b5e;
+    border: none;
+    color: #f2e8e1;
+    height: auto;
+    width: 20px;
+}
+
+.menu {
+    background-color: #325b5e;
+    box-shadow: 0 0 20px #202927;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu ul li a {
+    display: block;
+    color: #f2e8e1;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0.5em;
+    margin-right: 10px;
+}
+
+.menu ul {
+    display: none;
+}
+
+.menu ul.open {
+    display: block;
+}
+
+#hamburger span:nth-child(1) {
+    display: block;
+}
+
+#hamburger span:nth-child(2) {
+    display: none;
+}
+
+#hamburger.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburger.open span:nth-child(2) {
+    display: block;
+}
+
+.date-information {
+    grid-column: 1/5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background-color: #325b5e;
+    color: #f2e8e1;
+}
+
+/*----------- apply style main content--------------*/
+
+.content {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: .5fr .5fr .5fr .5fr auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 20px #202927;
+}
+
+/*----------- apply style hero-image--------------*/
+
+.hero-image {
+    position: relative;
+    margin-bottom: 5px;
+
+
+}
+
+.hero-image img {
+    width: 100%;
+    box-shadow: 0 0 20px #202927;
+}
+
+.heroBtn {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    color: #f2e8e1;
+    background-color: #325b5e;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*----------- apply style general element to different places--------------*/
+.place-event h2,
+.place-weather h2,
+.place-news h2 {
+    text-align: center;
+    padding: 10px;
+    color: #202927;
+    font-weight: bold;
+    font-size: 22px;
+    text-shadow: 0 0 0.2em green, 0 0 0.2em green,
+        0 0 0.2em green;
+}
+
+.place-event p,
+.place-weather p,
+.place-news p, .place-join p{
+    text-align: justify;
+    font-size: 16px;
+}
+.place-event,
+.place-weather,
+.place-news, .spotlight, .place-join {
+    background-color: #f2e8e1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    box-shadow: 0 0 20px #202927;
+}
+
+/*----------- apply style place-event--------------*/
+
+.place-event h3{
+    text-align: center;
+    padding: 10px;
+    color: #202927;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.place-event a {
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+/*----------- apply style place-wheater--------------*/
+
+.place-weather h3 {
+    padding: 5px;
+    color: #202927;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 2px solid #325b5e;
+    text-align: right;
+}
+
+.information_degree{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.information_weather{
+    padding:5px;
+}
+
+.degree input{
+    max-width:50px;
+    padding: 5px;
+    width: 100%;
+    margin: 10px 10px;;
+  
+}
+
+/*----------- apply style place-spotlight--------------*/
+
+.place-spotlight1,
+.place-spotlight2,
+.place-spotlight3 {
+    background-color:#325b5e;
+    box-shadow: 0 0 20px #202927;
+    margin: 5px 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.place-spotlight1 h2,
+.place-spotlight2 h2,
+.place-spotlight3 h2 {
+    text-align: center;
+    padding: 10px;
+    color: #202927;
+    font-weight: bold;
+    font-size: 22px;
+    text-shadow: 0 0 0.2em whitesmoke, 0 0 0.2em whitesmoke,
+        0 0 0.2em wheat;
+}
+
+.description {
+    font-size: 16px;
+    color:#f2e8e1;
+    border-top: 3px solid #325b5e;
+    text-align: center;
+    padding: 5px;
+}
+
+.phone {
+    color:#f2e8e1;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle {
+    font-style: italic;
+    margin: 10px;
+    padding: 5px;
+    color:#f2e8e1;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*----------- apply style place-join--------------*/
+
+.JoinBtn {
+    display: block;
+    color: #f2e8e1;
+    background-color: #325b5e;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px #202927;
+}
+
+/*----------- apply display:none--------------*/
+
+
+/*----------- apply style footer--------------*/
+footer {
+    background-color: #325b5e;
+    box-shadow: 0 0 20px #202927;
+    text-align: center;
+    color: #f2e8e1;
+
+}
+
+.information-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.image-footer{
+    margin:10px;
+
+}
+.image-footer img{
+    border-radius: 50%;
+}
+
+.address,
+.contact {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.last-update {
+    font-size: 18px;
+    border-top: 1px solid #f2e8e1;
+}

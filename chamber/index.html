@@ -5,71 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber of commerce </title>
-    <meta name="description" content="This page contains la estructura y el estilo utilizando las especificaciones del
-     documento de planificación del sitio web." />
+    <title>Chamber of commerce about Venezuela Beach</title>
+    <meta name="description"
+        content="This page contains the structure and style using the specifications of the website planning document." />
     <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Zilla+Slab:ital,wght@1,300&display=swap"
         rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/small.css">
+
 
 </head>
 
 <body>
     <header>
-        <picture class="logo">
-            <source media="(max-width:320px)" srcset="images/beach1.png">
-            <source media="(max-width:500px)" srcset="images/beach2.png">
-            <source media="(max-width:800px)" srcset="images/beach3.png">
-            <img src="images/beach.png" alt="Venezuela Beach" />
-        </picture>
-        <section class="container_company">
-
+        <section class="information_company">
+            <div class="logo">
+                <img src="images/beach3.png" alt="Venezuela Beach" />
+            </div>
             <div class="name_company">
-
                 <h1>Venezuela</h1>
-                <h2>Chamber of Commerce</h2>
+                <p>Chamber of Commerce</p>
             </div>
 
+            <div class="socialmedia">
+                <a href="https://www.facebook.com">
+                    <img src="images/facebook_icon3.png" alt="FaceBook Social Media">
+                </a>
+                <a href="https://www.linkedin.com">
+                    <img src="images/linkedin_icon3.png" alt="Linkedln Social Media">
+                </a>
+            </div>
+
+            <nav class="menu">
+                <button id="hamburger"><span>&#9776;</span><span>x</span></button>
+                <ul id="primaryNav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Insights</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="date-information">
+                <div class="date" id="date"></div>
+                <div class="message"></div>
+            </div>
         </section>
-        <div class="socialmedia">
-            <a href="https://www.facebook.com">
-                <img src="images/facebook_icon1.png" alt="FaceBook Social Media">
-            </a>
-            <a href="https://www.linkedin.com">
-                <img src="images/linkedin_icon1.png" alt="Linkedln Social Media">
-            </a>
-        </div>
-
-
-        <nav>
-            <button id="hamburger"><span>&#9776;</span><span>x</span></button>
-            <ul id="primaryNav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Insights</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-
+        
     </header>
-    <div class="script">
-        <div class="date" id="date"></div>
-        <div class="message"></div>
-    </div>
+
     <main class="content">
-        <picture class="place-hero">
-            <source media="(min-width:320px)" srcset="images/playas1.jpg">
-            <source media="(min-width:500px)" srcset="images/playas2.jpg">
-            <source media="(min-width:800px)" srcset="images/playas3.jpg">
-            <img src="images/playa.jpg" alt="Venezuela Beach" />
-        </picture>
-
-        <a class="heroBtn" href="#">Join the Chamber</a>
-
+        <div class="hero-image">
+            <img src="images/wdd230-org.jpg" alt="Organization Team" />
+            <a class="heroBtn" href="#">Join the Chamber</a>
+        </div>
         <div class="place-event">
             <h2>Ribbon Cutting</h2>
             <h3>🔹 The Diamond Shack</h3>
@@ -78,17 +67,16 @@
         </div>
         <div class="place-weather">
             <h2 class="weather">Weather</h2>
-            <picture class="imagen_wheater">
-                <source media="(min-width:320px)" srcset="images/wheater_icon1.png">
-                <source media="(min-width:500px)" srcset="images/wheater_icon2.jpeg">
-                <source media="(min-width:800px)" srcset="images/wheater_icon3.jpeg">
+            <div class="information_degree">
                 <img src="images/wheater_icon2.jpeg" alt="weather picture">
-                </picture>
-        <p class="degree"><input type="number" id="temp" placeholder="33&deg;F"></p>
+                <p class="degree"><input type="number" id="temp" placeholder="33&deg;F"></p>
+            </div>
             <h3> Partly Cloudy</h3>
-            <p class="ws">Wind Speed: <input type="number" id="windSpeed"></p>
+            <div class="information_weather">
+            <p class="ws">Wind Speed:<input type="number" id="windSpeed"></p>
             <p class="wc">Wind Chill: <span id="wChill"></span></p>
-            <button id="calcTemp">Calculate temperature</button>
+            </div>
+            
         </div>
 
         <div class="place-news">
@@ -152,35 +140,28 @@
     <footer>
 
 
-        <div class="container">
-        <picture class="footer-logo">
-            <source media="(min-width:320px)" srcset="images/beach1.png">
-            <source media="(min-width:500px)" srcset="images/beach2.png">
-            <source media="(min-width:800px)" srcset="images/beach3.png">
-            <img src="images/beach.png" alt="Venezuela Beach" />
-        </picture>
+        <div class="information-footer">
+            <div class="image-footer">
 
-
+                <img src="images/beach3.png" alt="Venezuela Beach" />
+            </div>
             <div class="information-general">
 
                 <h2> Venezuela</h2>
                 <h3>Chamber of Commerce</h3>
-
-
-                <div class="address">
-
-                    <p>48119 Sao Bernardo do Campo</p>
-                    <p>Sao Paulo, Brazil 09842-080</p>
-                </div>
             </div>
+
+            <div class="address">
+
+                <p>48119 Sao Bernardo do Campo</p>
+                <p>Sao Paulo, Brazil 09842-080</p>
+            </div>
+
             <div class="contact">
                 <p>prietobassociates@pba.org</p>
                 <p>+55(11)96239-1232</p>
                 <p class="map">Map Link</p>
             </div>
-
-
-
 
             <div class="last-update">&copy;<span id="currentyear"></span>.<p>:|:. Maria M. Prieto B .:|:. Venezuela <br>
                     Last Updated: <span id="lastupdated"></span></p>
