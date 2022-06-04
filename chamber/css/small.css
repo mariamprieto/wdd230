@@ -47,7 +47,7 @@ header {
     font-size: 24px;
     margin: 0;
     text-align: center;
-    margin-top:5px;
+    margin-top: 5px;
 }
 
 .name_company p {
@@ -81,7 +81,7 @@ header {
     background-color: #325b5e;
     box-shadow: 0 0 20px #202927;
     padding: 3px;
-    margin-top:5px;
+    margin-top: 5px;
     margin-right: 10px;
 }
 
@@ -169,7 +169,7 @@ header {
 /*----------- apply style general element to different places--------------*/
 .place-event h2,
 .place-weather h2,
-.place-news h2 {
+.place-news h2, .discover-content h2 {
     text-align: center;
     padding: 10px;
     color: #2F5233;
@@ -180,13 +180,17 @@ header {
 
 .place-event p,
 .place-weather p,
-.place-news p, .place-join p{
+.place-news p,
+.place-join p {
     text-align: justify;
     font-size: 16px;
 }
+
 .place-event,
 .place-weather,
-.place-news, .spotlight, .place-join {
+.place-news,
+.spotlight,
+.place-join {
     background-color: #f2e8e1;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -196,7 +200,7 @@ header {
 
 /*----------- apply style place-event--------------*/
 
-.place-event h3{
+.place-event h3 {
     text-align: center;
     padding: 10px;
     color: #202927;
@@ -223,39 +227,41 @@ header {
     text-align: right;
 }
 
-.information_degree{
-    display:flex;
+.information_degree {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.information_weather{
-    padding:5px;
+.information_weather {
+    padding: 5px;
 }
 
-.degree input{
-    max-width:50px;
+.degree input {
+    max-width: 50px;
     padding: 5px;
     width: 100%;
-    margin: 10px 10px;;
-  
+    margin: 10px 10px;
+    ;
+
 }
 
 /*----------- apply style place-spotlight--------------*/
 
-.spotlight{
-    display:flex;
+.spotlight {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 
 }
+
 .place-spotlight1,
-.place-spotlight2{
-    width:250px;
-    background-color:#325b5e;
+.place-spotlight2 {
+    width: 250px;
+    background-color: #325b5e;
     box-shadow: 0 0 20px #202927;
     margin: 5px 5px;
     padding: 10px;
@@ -270,7 +276,7 @@ header {
 .place-spotlight3 h2 {
     text-align: center;
     padding: 10px;
-    color:#f2e8e1;
+    color: #f2e8e1;
     font-weight: bold;
     font-size: 22px;
     text-shadow: black 0.1em 0.1em 0.2em
@@ -278,14 +284,14 @@ header {
 
 .description {
     font-size: 16px;
-    color:#f2e8e1;
+    color: #f2e8e1;
     border-top: 3px solid #325b5e;
     text-align: center;
     padding: 5px;
 }
 
 .phone {
-    color:#f2e8e1;
+    color: #f2e8e1;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -295,7 +301,7 @@ header {
     font-style: italic;
     margin: 10px;
     padding: 5px;
-    color:#f2e8e1;
+    color: #f2e8e1;
     font-weight: bold;
     font-size: 18px;
     text-align: center;
@@ -339,11 +345,11 @@ footer {
     flex-direction: column;
 }
 
-.image-footer{
-    margin:10px;
+.image-footer {
+    margin: 10px;
 }
 
-.image-footer img{
+.image-footer img {
     border-radius: 50%;
 }
 
@@ -357,4 +363,59 @@ footer {
 .last-update {
     font-size: 16px;
     border-top: 1px solid #f2e8e1;
+}
+
+/*----------- apply style discover page--------------*/
+
+.discover-content {
+    background-color:#f2e8e1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 20px #202927;
+    
+
+}
+
+.card {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    background-color: #f2e8e1;
+    box-shadow: 0 0 20px #202927;
+    border-radius: 2%;
+}
+
+.card:hover {
+     box-shadow: 0 0 20px #167D7F;
+        }
+
+.card img {
+    width: 100%;
+  }
+
+.card h3{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.card p{
+    font-size: 16px;
+    padding:5px;
+    text-align: justify;
+}
+.card_link{
+    background-color: #325b5e;
+    padding:5px;
+    margin-top: 5px;
+    
+}
+
+.card_link a{
+    text-decoration: none;
+    color: #f2e8e1;
+
+    
 }
