@@ -64,7 +64,7 @@
     .place-news h2,
     .place-spotlight1 h2,
     .place-spotlight2 h2,
-    .place-spotlight3 h2 {
+    .place-spotlight3 h2,.discover-content h2 {
         font-size: 32px;
     }
 
@@ -112,4 +112,14 @@
         grid-row: 3/4;
         margin-right: 10px;
     }
+  
+        .card h3 {
+            font-size: 24px;
+    
+        }
+    
+        .card p {
+            font-size: 20px;
+    
+        }
 }

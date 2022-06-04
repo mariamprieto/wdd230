@@ -73,7 +73,8 @@
     .place-news h2,
     .place-spotlight1 h2,
     .place-spotlight2 h2,
-    .place-spotlight3 h2 {
+    .place-spotlight3 h2,
+    .discover-content h2 {
         font-size: 26px;
     }
 
@@ -103,6 +104,13 @@
 
     }
 
+    .card h3 {
+        font-size: 22px;
 
+    }
 
+    .card p {
+        font-size: 18px;
+
+    }
 }
