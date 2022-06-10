@@ -16,6 +16,7 @@ table {
 
 thead th{
     background-color: #385E72;
+    color:white;
 }
 thead th:nth-child(1) {
     width: 35%;
@@ -42,6 +43,8 @@ tbody td {
 
 tbody td:hover{
     background-color:#385E72;
+    color:white;
+    font-weight: bolder;
 }
 caption {
     font-size: 26px;
