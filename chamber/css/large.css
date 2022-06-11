@@ -55,7 +55,7 @@
         padding: 10px;
         width: 100%;
         height: 100%;
-       
+
     }
 
     .information-footer h2,
@@ -64,7 +64,8 @@
     .place-news h2,
     .place-spotlight1 h2,
     .place-spotlight2 h2,
-    .place-spotlight3 h2,.discover-content h2 {
+    .place-spotlight3 h2,
+    .discover-content h2 {
         font-size: 32px;
     }
 
@@ -112,14 +113,61 @@
         grid-row: 3/4;
         margin-right: 10px;
     }
-  
-        .card h3 {
-            font-size: 24px;
-    
+
+    .card h3 {
+        font-size: 24px;
+
+    }
+
+    .card p {
+        font-size: 20px;
+
+    }
+
+    .joinForm {
+        width: 800px;
+    }
+
+    .title-form {
+
+        font-size: 30px;
+
+    }
+
+
+    form fieldset {
+     
+        font-size: 26px;
+
+
+    }
+
+    form legend {
+        font-size: 28px;
+    }
+
+    form label.info {
+        font-size: 26px;
+
+
+    }
+
+   
+
+        .benefits h2 {
+            
+            font-size:28px;
         }
-    
-        .card p {
-            font-size: 20px;
-    
-        }
+    #nonprofit,
+    #bronze,
+    #silver,
+    #gold {
+        font-size: 24px;
+    }
+
+ .thankyou {
+
+     font-size: 26px;
+ }
+
 }

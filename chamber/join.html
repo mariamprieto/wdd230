@@ -58,9 +58,9 @@
 
     <main>
 
+        <h1 class="title-form">Join the Chamber of Commerce</h1>
         <div class="joinForm">
-            <h1>Join the Chamber of Commerce</h1>
-            <form method="get" action="./thankyou.html">
+                    <form method="get" action="./thankyou.html">
                 <fieldset>
                     <legend>Contact Information</legend>
                     <label class="info">First Name* <input type="text" name="fname" required></label>
@@ -82,17 +82,20 @@
                 <fieldset>
                     <legend>Membership Level</legend>
                    
-                    <select id="membership" >
+                    <select id="membership" onchange="changeStatus()">
+                        <option value="select">Select one</option>
                         <option value="nonprofit">NP Membership</option>
                         <option value="bronze">Bronze Membership</option>
-                        <option value="silver">Silver Membership</option>
-                        <option value="gold">Gold Membership</option>
+                        <option value="silver" >Silver Membership</option>
+                        <option value="gold" >Gold Membership</option>
                     </select>
                 </fieldset>
                 <aside>
+                    
                     <div class="benefits">
-                        <div id="nonprofit">
                         <h2>Memebership Benefits</h2>
+                        <div id="nonprofit">
+                        
                         <h3>Non-Profit Members</h3>
                         <ul>
                             <li>Free annual cost</li>
