@@ -424,3 +424,9 @@ footer {
 
     
 }
+
+/*----------- apply style join page--------------*/
+
+#noprofit, #bronze,#silver,#gold{
+    display:none;
+}
