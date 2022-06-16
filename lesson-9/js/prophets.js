@@ -16,6 +16,12 @@ async function getInformation() {
 function buildCard(data) {
     console.log(data);
     data.prophets.forEach(prophet => {
+        let card = document.createElement('div');
+        let h2 = document.createElement('h2');
+        let p = document.createElement('p');
+        let imagen = document.createElement('img');
+
+        h2.innerHTML=`${prophet.name}`
         
     })
     
