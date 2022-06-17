@@ -1,26 +1,26 @@
 {
     "directory": [
         {
-            "name": "Banco Central De Venezuela",
-            "address": "Av. Urdaneta esq. Las Carmelitas 1010, Caracas",
-            "activity": "Public entity responsible for contributing to the Executive Power in the harmonization of monetary policy.",
-            "phone": "(+58-212)8015111",
-            "website": "http://www.bcv.org.ve/",
-            "imagen": "https://www.venezuela-directorio.com/base/stock/Place/51671-image/51671-image_small.jpg"
+            "name": "Colegio Internacional de Carabobo",
+            "address": "Final Av. Alejo Zuloaga c/c Calle El Colegio Urb. Trigal Centro Valencia",
+            "activity": "School that imparts international education.",
+            "phone": "(+58-241)842 6551",
+            "website": "http://www.cicvalencia.org/",
+            "imagen": "http://www.cicvalencia.org/images/logo%20relieve-u31498.png?crc=27930953"
         },
         {
-            "name": "Lidotel Hotel Boutique",
-            "address": "Autopista Antonio Jose de Sucre, Sector Las Lomas,Edificio Lidotel, San Cristobal",
-            "activity": "Hotel Boutique San Cristóbal invites you to feel at home, located in a charming city with a mountain climate, it offers you an exclusive service.",
-            "phone": "(+58-276)5103333",
-            "website": "http://www.lidotel.com.ve",
-            "imagen": "https://www.venezuela-directorio.com/base/stock/Place/28201-image/28201-image_small.jpg"
+            "name": "Hesperia WTC Valencia",
+            "address": "Av. Salvador Feo la Cruz, Naguanagua, Carabobo.",
+            "activity": "Superior category hotel network.",
+            "phone": "(+58-241)515 3000",
+            "website": "https://hoteleshesperia.com.ve/",
+            "imagen": "https://hoteleshesperia.com.ve/storage/app/media/logos/hesperia-hhr-v2.png"
         },
         {
             "name": "Century 21",
             "address": "Av. Guaicaipuro con Av. Principal Las Mercedes, Edificio FORUM, Piso 4, Urbanización El Rosal, Caracas",
             "activity": "Real Estate Services (Purchase, Sale, Rentals, Appraisals, Pre-sale and services).",
-            "phone": "(+58-212)9534950",
+            "phone": "(+58-212)953 4950",
             "website": "http://www.century21.com.ve/",
             "imagen": "https://www.venezuela-directorio.com/base/stock/Place/57699-image/57699-image_small.jpg"
         },
@@ -28,73 +28,73 @@
             "name": "T.B.E. Asesoría Jurídica",
             "address": "Urb. El Bosque Conjunto Residencial Las Espigas, calle de servicio 113-71, casa 12, Av. Cuatricentenaria, Valencia",
             "activity": "Advice on Intellectual Property and Sanitary Registration of food products.",
-            "phone": "(+58-241)8230817",
+            "phone": "(+58-241)823 0817",
             "website": "http://www.tbepropiedadintelectual.com",
             "imagen": "https://www.venezuela-directorio.com/base/stock/Place/14868-image/14868-image_small.jpg"
         },
         {
             "name": "U.E Colegio Batalla Carabobo",
             "address": "Calle 43, Barquisimeto 3001, Lara",
-            "activity": "Strengthen in children, adolescents and young people a comprehensive education according to the needs of society, instilling in them ethical and moral values.",
-            "phone": "+(58251)4464187",
+            "activity": "School for primary",
+            "phone": "+(58-251)446 4187",
             "website": "https://colegiobatalladelavictoria.com.ve/",
             "imagen": "https://www.venezuela-directorio.com/base/stock/Place/756-image/756-image_small.jpg"
         },
         {
             "name": "DOC Restaurant",
             "address": "Avenida Andrés Bello, entre Avenida Francisco de Miranda y 1era Transversal. Los Palos Grandes, Caracas",
-            "activity": "In D.O.C. we present a concept of creative cuisine with Venezuelan ingredients brought directly “from the farm to the fork.",
-            "phone": "(+58212)2851003",
+            "activity": "Restaurant of creative cuisine with Venezuelan ingredients brought directly from the farm to the fork.",
+            "phone": "(+58-212)285 1003",
             "website": "https://www.doc-restaurant.com/",
             "imagen": "https://www.venezuela-directorio.com/base/stock/Place/57700-image/57700-image_small.jpg"
         },
         {
-            "name": "",
-            "address": "",
-            "activity": "",
-            "phone": "",
-            "website": "",
-            "imagen": ""
+            "name": "Kanji Sushi Delivery",
+            "address": "Detrás de Miraflores, Altagracia, Caracas, Distrito Capital",
+            "activity": "Chinese Food Restaurant.",
+            "phone": "(+58-212)714 0956",
+            "website": "https://www.instagram.com/kanjisushi_/",
+            "imagen": "https://www.venezuelayello.com/img/ve/s/1641560337-59-kanji-sushi-delivery.jpg"
         },
         {
-            "name": "",
-            "address": "",
-            "activity": "",
-            "phone": "",
-            "website": "",
-            "imagen": ""
+            "name": "Caritas San Antonio",
+            "address": "L Plaza, Caditas, PB, 3, San Antonio, San Antonio de Los Altos, Miranda",
+            "activity": "Non-profit organization in charge of helping Venezuelans with precarious situations.",
+            "phone": "(+58-212)372 3073",
+            "website": "https://www.caritas.org/where-caritas-work/latin-america/venezuela/",
+            "imagen": "https://www.venezuelayello.com/img/ve/m/1640182069-59-caritas-san-antonio.png"
         },
         {
-            "name": "",
-            "address": "",
-            "activity": "",
-            "phone": "",
-            "website": "",
-            "imagen": ""
+            "name": "Diagnoimagen",
+            "address": "Av. Fco. de Miranda, Centro Lido, Nivel Galería, Local G-29, El Rosal, Caracas, Distrito Capital",
+            "activity": "Health Center specializing in imaging services",
+            "phone": "(+58-212)952 1041",
+            "website": "http://www.diagnoimagen.com",
+            "imagen": "https://www.venezuelayello.com/img/ve/k/_1629906697-71-diagnoimagen.png"
         },
         {
-            "name": "",
-            "address": "",
-            "activity": "",
-            "phone": "",
-            "website": "",
-            "imagen": ""
+            "name": "Centrol Control Carabobo, C.A.",
+            "address": "Urb. Industrial Carabobo, Prolongacion Av. Michelena, Parcela E-8, Valencia, Carabobo",
+            "activity": "Company specialized in controls, electrical materials and industrial supplies.",
+            "phone": "(+58-241)832 0594",
+            "website": "https://www.instagram.com/controlcarabobo/",
+            "imagen": "https://www.venezuelayello.com/img/ve/b/_1641470116-84-centro-control-carabobo-c-a.png"
         },
         {
-            "name": "",
-            "address": "",
-            "activity": "",
-            "phone": "",
-            "website": "",
-            "imagen": ""
+            "name": "La Tienda del Pintor",
+            "address": "Avenida Carlos Sanda, Nro. 101-125, Urbanizacion El Vinedo., Valencia, Carabobo",
+            "activity": "Network of paint shops.",
+            "phone": "(+58-241)821 4596",
+            "website": "http://www.latiendadelpintor.com",
+            "imagen": "https://www.venezuelayello.com/img/ve/j/1641294499-56-la-tienda-del-pintor.jpg"
         },
         {
-            "name": "",
-            "address": "",
-            "activity": "",
-            "phone": "",
-            "website": "",
-            "imagen": ""
+            "name": "Juriprev",
+            "address": "Calle Urdaneta residencias parque central Local N° 49, Ocumare del Tuy, Miranda",
+            "activity": "Legal prevention service",
+            "phone": "(+58-239)224 0298",
+            "website": "https://juriprev.com",
+            "imagen": "https://www.venezuelayello.com/img/ve/e/1609881216-82-juriprev.png"
         }
     ]
 }
