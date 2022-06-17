@@ -1,0 +1,115 @@
+/*----------- apply all HTML--------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+main,
+footer {
+
+    margin: 0 auto;
+}
+
+header {
+
+    background-color: burlywood;
+}
+
+header h1 {
+    font-size: 18px;
+    text-align: center;
+
+}
+
+main {
+    background-color: antiquewhite;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.cards {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.cards div {
+    padding: 5px;
+    box-shadow: 0 0 20px #202927;
+    margin-top: 10px;
+}
+
+.cards div p {
+    font-size: 12px;
+    padding: 2px;
+
+}
+
+.cards div h2 {
+    font-size: 16px;
+}
+
+.cards div img {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    background-color: burlywood;
+    font-weight: 900;
+}
+
+@media only screen and (min-width:35rem) {
+    .cards {
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .cards div {
+        flex: 1 1 33.33%;
+        margin: 20px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .cards div h2 {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+
+    .cards div p {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width:64rem) {
+    .cards {
+            width: 800px;}
+                        header h1 {
+                            font-size: 26px;
+                        }
+            
+                        .cards div h2 {
+                            font-size: 20px;
+                        }
+            
+                        footer {
+                            font-size: 18px;
+                        }
+            
+                        .cards div p {
+                            font-size: 18px;
+                        }
+
+}
