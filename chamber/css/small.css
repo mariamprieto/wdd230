@@ -510,16 +510,20 @@ form label.submit{
     
 }
 
-.benefits{
+#benefits{
+    display:none;
     padding:10px;
     
 }
 
-.benefits h2 {
+#benefits h2 {
+    font-size: 20px;
+    text-align: center;
     margin-bottom: 10px;
 }
-.benefits ul {
+#benefits ul {
        margin-left:10px;
+      
 }
 
 #nonprofit,

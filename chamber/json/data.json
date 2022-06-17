@@ -1,0 +1,100 @@
+{
+    "directory": [
+        {
+            "name": "Banco Central De Venezuela",
+            "address": "Av. Urdaneta esq. Las Carmelitas 1010, Caracas",
+            "activity": "Public entity responsible for contributing to the Executive Power in the harmonization of monetary policy.",
+            "phone": "(+58-212)8015111",
+            "website": "http://www.bcv.org.ve/",
+            "imagen": "https://www.venezuela-directorio.com/base/stock/Place/51671-image/51671-image_small.jpg"
+        },
+        {
+            "name": "Lidotel Hotel Boutique",
+            "address": "Autopista Antonio Jose de Sucre, Sector Las Lomas,Edificio Lidotel, San Cristobal",
+            "activity": "Hotel Boutique San Cristóbal invites you to feel at home, located in a charming city with a mountain climate, it offers you an exclusive service.",
+            "phone": "(+58-276)5103333",
+            "website": "http://www.lidotel.com.ve",
+            "imagen": "https://www.venezuela-directorio.com/base/stock/Place/28201-image/28201-image_small.jpg"
+        },
+        {
+            "name": "Century 21",
+            "address": "Av. Guaicaipuro con Av. Principal Las Mercedes, Edificio FORUM, Piso 4, Urbanización El Rosal, Caracas",
+            "activity": "Real Estate Services (Purchase, Sale, Rentals, Appraisals, Pre-sale and services).",
+            "phone": "(+58-212)9534950",
+            "website": "http://www.century21.com.ve/",
+            "imagen": "https://www.venezuela-directorio.com/base/stock/Place/57699-image/57699-image_small.jpg"
+        },
+        {
+            "name": "T.B.E. Asesoría Jurídica",
+            "address": "Urb. El Bosque Conjunto Residencial Las Espigas, calle de servicio 113-71, casa 12, Av. Cuatricentenaria, Valencia",
+            "activity": "Advice on Intellectual Property and Sanitary Registration of food products.",
+            "phone": "(+58-241)8230817",
+            "website": "http://www.tbepropiedadintelectual.com",
+            "imagen": "https://www.venezuela-directorio.com/base/stock/Place/14868-image/14868-image_small.jpg"
+        },
+        {
+            "name": "U.E Colegio Batalla Carabobo",
+            "address": "Calle 43, Barquisimeto 3001, Lara",
+            "activity": "Strengthen in children, adolescents and young people a comprehensive education according to the needs of society, instilling in them ethical and moral values.",
+            "phone": "+(58251)4464187",
+            "website": "https://colegiobatalladelavictoria.com.ve/",
+            "imagen": "https://www.venezuela-directorio.com/base/stock/Place/756-image/756-image_small.jpg"
+        },
+        {
+            "name": "DOC Restaurant",
+            "address": "Avenida Andrés Bello, entre Avenida Francisco de Miranda y 1era Transversal. Los Palos Grandes, Caracas",
+            "activity": "In D.O.C. we present a concept of creative cuisine with Venezuelan ingredients brought directly “from the farm to the fork.",
+            "phone": "(+58212)2851003",
+            "website": "https://www.doc-restaurant.com/",
+            "imagen": "https://www.venezuela-directorio.com/base/stock/Place/57700-image/57700-image_small.jpg"
+        },
+        {
+            "name": "",
+            "address": "",
+            "activity": "",
+            "phone": "",
+            "website": "",
+            "imagen": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "activity": "",
+            "phone": "",
+            "website": "",
+            "imagen": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "activity": "",
+            "phone": "",
+            "website": "",
+            "imagen": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "activity": "",
+            "phone": "",
+            "website": "",
+            "imagen": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "activity": "",
+            "phone": "",
+            "website": "",
+            "imagen": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "activity": "",
+            "phone": "",
+            "website": "",
+            "imagen": ""
+        }
+    ]
+}
