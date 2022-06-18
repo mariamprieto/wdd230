@@ -545,3 +545,145 @@ form label.submit{
     text-align: center;
     font-size: 20px;
 }
+
+/*----------- apply directory--------------*/
+
+.directory_menu {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color:#f2e8e1;
+    text-align: center;
+}
+
+.directory_menu button {
+    padding: 1rem;
+    font-weight: 900;
+    box-shadow: 0 0 20px #202927;
+   
+}
+
+.directory_menu button:hover{
+   background-color: #325b5e;
+   color:#f2e8e1;
+
+}
+article,
+.information{
+    
+    background-color:#325b5e;
+}
+
+.information {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+   
+    
+}
+
+.information div{
+    background-color: #f2e8e1;
+    box-shadow: 0 0 20px #f2e8e1;
+    padding:15px;
+    width:300px;
+    
+    
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.grid h2{
+    font-size: 22px;
+    color:#f2e8e1;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+.list h2 {
+    font-size: 22px;
+    color: #f2e8e1;
+    text-align: center;
+}
+
+.list .information {
+    display: flex;
+    align-items: center;
+}
+
+.grid .information {
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid .information>* {
+    margin: 5px;
+}
+
+.list .information {
+    flex-direction: column;
+    justify-content: left;
+}
+
+.list .information div{
+    display:flex;
+    flex-direction: column;
+    width:95%;
+    
+}
+
+.list .information>* {
+    margin: 5px;
+    text-align: left;
+}
+
+.list .information img {
+    display: none;
+    
+}
+
+.list .information p {
+    display: none;
+
+}
+
+.information h3 {
+    font-size:18px ;
+    padding-bottom:2px;
+    padding-top:5px;
+  
+}
+
+.information h4 {
+    font-size: 16px;
+    padding-top: 5px;
+ 
+
+}
+.information p{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    
+
+}
+
+.information a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    
+  
+}
+
+.information img {
+    height: 95px;
+    max-width: 100%;
+
+
+}

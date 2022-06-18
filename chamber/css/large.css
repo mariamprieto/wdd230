@@ -167,8 +167,30 @@
     }
 
     .thankyou {
-
         font-size: 26px;
     }
+
+    .grid .information {
+        width: 900px;
+    }
+
+    .directory_menu button {
+        font-size: 22px;
+    }
+
+    .grid h2,
+    .list h2 {
+        font-size: 28px;
+    }
+
+    .information h3 {
+        font-size: 22px
+    }
+
+    .information h4, .information p {
+        font-size: 20px
+    }
+        .information a {
+            font-size: 18px;}
 
 }

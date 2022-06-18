@@ -119,14 +119,14 @@
     }
 
     .title-form {
-        
+
         font-size: 26px;
 
     }
 
 
     form fieldset {
-       
+
         font-size: 22px;
 
 
@@ -137,27 +137,63 @@
     }
 
     form label.info {
-            font-size: 22px;
-       
+        font-size: 22px;
+
 
     }
 
- 
- #benefits h2{
 
-    font-size: 24px;
- }
-   
+    #benefits h2 {
+
+        font-size: 24px;
+    }
+
 
     #nonprofit,
     #bronze,
     #silver,
     #gold {
-    font-size: 22px;
+        font-size: 22px;
     }
-        .thankyou {
-        
-            font-size: 24px;
-        }
 
+    .thankyou {
+
+        font-size: 24px;
+    }
+
+
+    .list .information div {
+        flex-direction: row;
+        align-items:center ;
+        justify-content: space-around;
+      
+    }
+
+    .list .information img {
+        margin:5px;       
+        display: block;
+ 
+   }
+
+   .list .information h3, .list .information h4{
+       padding:10px;
+   
+
+   }
+   .information img {
+    height: 130px;
+    padding: 10px;
+   }
+   .grid .information {
+    flex-direction: row;
+       width: 600px;
+       display: flex;
+       flex-wrap: wrap;
+
+   }
+
+   .grid .information div {
+       flex: 1 1 33.33%;
+       margin: 20px;
+   }
 }
