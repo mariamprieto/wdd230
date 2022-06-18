@@ -187,10 +187,14 @@
         font-size: 22px
     }
 
-    .information h4, .information p {
+    .information h4,
+    .information p {
         font-size: 20px
     }
-        .information a {
-            font-size: 18px;}
 
+    .information a {
+        font-size: 18px;
+    }
+
+   
 }

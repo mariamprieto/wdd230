@@ -165,7 +165,7 @@
     .list .information div {
         flex-direction: row;
         align-items:center ;
-        justify-content: space-around;
+        justify-content:space-between;
       
     }
 
@@ -181,8 +181,7 @@
 
    }
    .information img {
-    height: 130px;
-    padding: 10px;
+    width:200px;
    }
    .grid .information {
     flex-direction: row;
