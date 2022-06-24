@@ -1,30 +1,38 @@
 // select HTML elements in the document
-// select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-
-
-
+const search_input = document.querySelector('.form-control');
+const search_button = document.querySelector('.btn');
 
 // Creating a variable with the API URL
-const url = `https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&APPID=efb7d71a34ef674075983e07613772f2`;
+const api = {
+    key: "efb7d71a34ef674075983e07613772f2",
+    base: "https://api.openweathermap.org/data/2.5/",
+    units: "imperial"
+}
+
+search_button.addEventListener('click', function () {
+    searchResults(search_input.value)
+})
+
 
 //Function to access the data held in the API
-async function apiFetch(apiURL) {
-    try {
-        const response = await fetch(apiURL);
-        if (response.ok) {
-            const data = await response.json();
-            console.log(data);
-            // this is for testing the call
-            displayResults(data);
-        } else {
-            throw Error(await response.text());
-        }
-    } catch (error) {
-        console.log(error);
-    }
+
+function searchResults(city) {
+    fetch(`${api.base}weather?q=${city}&units=${api.units}&APPID=${api.key}`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`http error: status ${response.status}`)
+            }
+            return response.json();
+        })
+        .catch(error => {
+            alert(error.message)
+        })
+        .then(response => {
+            displayResults(response)
+        });
 }
 
 //Function to obtain data from the API and display it on the web page
@@ -42,4 +50,3 @@ function displayResults(information) {
     captionDesc.textContent = desc.toUpperCase();
 }
 
-apiFetch(url);

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,30 @@
     <title>Wheater API from Sao Pulo Brazil</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
-    <h1>OpenWeatherMap.org API Test</h1>
+        <h1>OpenWeatherMap.org API Test</h1>
     </header>
     <main>
-    <h2>Current Condition Icon</h2>
-    <p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span> &deg;F</p>
-    <figure>
-        <img src="" alt="" id="weather-icon" />
-        <figcaption></figcaption>
-    </figure>
+        <h2>Current Condition Icon</h2>
+        <p>The current temperature in <input type="text" class="form-control" placeholder="Type the name of the country" required>
+
+            <button class="btn" type="button"> Search
+            </button> is <span id="current-temp"></span> &deg;F
+        </p>
+        <figure>
+            <img src="" alt="" id="weather-icon" />
+            <figcaption></figcaption>
+        </figure>
 
 
- 
+
     </main>
     <footer>
         Maria Prieto | BYU-Idaho | WDD 230
     </footer>
     <script src="js/weatherapi.js"></script>
-    </body>
+</body>
+
 </html>
