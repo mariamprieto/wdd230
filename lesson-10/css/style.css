@@ -34,12 +34,26 @@ main{
     padding-bottom: 5px;
  }
 
- figure{
+ .figure{
     display:flex;
     align-items: center;
     justify-content: center;
  }
 
+ .input_city{
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding:5px;
+    font-size: 12px;
+    width:160px;
+ }
+
+ .btn{
+    margin-bottom: 5px;
+    width:60px;
+    padding: 5px;
+    margin-top: 5px;
+ }
 footer{
     text-align: center;
     font-size: larger;

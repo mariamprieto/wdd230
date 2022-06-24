@@ -2,7 +2,7 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const search_input = document.querySelector('.form-control');
+const search_input = document.querySelector('.input_city');
 const search_button = document.querySelector('.btn');
 
 // Creating a variable with the API URL
