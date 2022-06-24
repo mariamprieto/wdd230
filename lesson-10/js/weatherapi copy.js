@@ -3,12 +3,13 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
+const input= document.querySelector('#city');
 
-
+const city_name = input.value;
 
 
 // Creating a variable with the API URL
-const url = `https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&APPID=efb7d71a34ef674075983e07613772f2`;
+const url = `https://api.openweathermap.org/data/2.5/weather?q=${city_name}&units=imperial&APPID=efb7d71a34ef674075983e07613772f2`;
 
 //Function to access the data held in the API
 async function apiFetch(apiURL) {
@@ -35,7 +36,7 @@ function displayResults(information) {
     const icon = information.weather[0].icon;
     let desc = information["weather"][0]["description"];
 
-    const imagesrc = `https://openweathermap.org/img/wn/${icon}@2x.png`;
+    const imagesrc = `https://openweathermap.org/img/w/${icon}@2x.png`;
     weatherIcon.setAttribute('src', imagesrc);
     weatherIcon.setAttribute('alt', desc);
 

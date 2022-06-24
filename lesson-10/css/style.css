@@ -1,0 +1,48 @@
+/*----------- apply all HTML--------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+
+}
+
+/*----------- apply a general style--------------*/
+header,
+main,
+footer {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header{
+    font-size:15px;
+    text-align: center;
+    background-color:#FFAEBC;
+    padding:5px;
+   
+  
+}
+main{
+    padding:10px;
+    background-color:#B4F8C8;
+}
+ main h2{
+    text-align: center;
+    padding-bottom: 5px;
+ }
+
+ figure{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+footer{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-color:#FFAEBC;
+}
