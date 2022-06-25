@@ -1,27 +1,58 @@
-const localtemp = document.querySelector("#temp");
-const wSpeed = document.querySelector("#windSpeed");
-const windchill = document.querySelector("#wChill");
+const weatherIcon = document.querySelector(".weatherIcon");
+const iconDesc = document.querySelector(".iconDesc");
+const localtemp = document.querySelector(".temp");
+const wSpeed = document.querySelector(".windSpeed");
+const wChill = document.querySelector(".wChill");
 
+// Creating a variable with the API URL
+const api = "https://api.openweathermap.org/data/2.5/weather?q=Venezuela&imperial&APPID=da28ef0488cf8a1538d20c2db5897dd8";
+let data, newTemp, speed;
 
+async function getWeather() {
+  const response = await fetch(api);
+  data = await response.json();
+  console.log(data);
+  return data;
+}
 
-  const temp = parseInt(localtemp.value);
-  const windSpeed = parseInt(wSpeed.value);
+const fillData = async () => {
+  await getWeather();
+  newTemp = data.main.temp;
+  speed = data.wind.speed;
+ 
+  let currentTemp = Math.round(newTemp);
+  localtemp.textContent += `${currentTemp}`;
 
-  if (temp <= 50 && windSpeed > 3) {
-    result =
-      Math.round(
-        (35.74 +
-          0.6215 * temp -
-          35.75 * (windSpeed ^ 0.16) +
-          0.4275 * temp * (windSpeed ^ 0.16)) *
-          100
-      ) / 100;
-  } else if (temp >= 50 && windSpeed < 3) {
-    result = "N/A";
+  let currentspeed = Math.round(speed);
+  wSpeed.textContent = `${currentspeed} mph`;
+
+  return newTemp, speed;
+};
+
+const getIconDesc = async () => {
+  await fillData();
+  let icon = data.weather[0].icon;
+  let desc = data.weather[0].description;
+
+  weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
+  weatherIcon.alt = `API Image of ${desc}`;
+  iconDesc.textContent = desc.toUpperCase();
+};
+
+const calculateWindChill = async () => {
+  await getIconDesc();
+  if (newTemp <= 50 && speed > 3.0) {
+    let chill =
+      35.74 +
+      0.6215 * newTemp -
+      35.75 * speed ** 0.16 +
+      0.4275 * newTemp * speed ** 0.16;
+    chill = Math.round(chill);
+    wChill.innerHTML = `Feels like ${chill}&#176;F`;
   } else {
-    result = "";
+    wChill.textContent = `N/A`;
   }
+};
 
-windchill.textContent = result;
-  
 
+window.addEventListener("load", calculateWindChill);

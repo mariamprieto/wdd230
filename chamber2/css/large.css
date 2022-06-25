@@ -1,0 +1,200 @@
+@media only screen and (min-width:64rem) {
+
+
+    .menu #hamburger {
+        display: none;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu ul li a {
+        font-size: 20px;
+    }
+
+    .name_company h1 {
+        font-size: 34px;
+    }
+
+    .date-information {
+        font-size: 24px;
+    }
+
+    .place-event {
+        width: 300px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .place-weather {
+        width: 300px;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .place-join {
+        width: 300px;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .heroBtn {
+        top: 10px;
+        font-size: 30px;
+    }
+
+    .hero-image {
+        margin: 10px;
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+    .hero-image img {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .information-footer h2,
+    .place-event h2,
+    .place-weather h2,
+    .place-news h2,
+    .place-spotlight1 h2,
+    .place-spotlight2 h2,
+    .place-spotlight3 h2,
+    .discover-content h2 {
+        font-size: 32px;
+    }
+
+    .information-footer p,
+    .place-event p,
+    .place-weather p,
+    .place-news p,
+    .place-spotlight1 p,
+    .place-spotlight2 p,
+    .place-spotlight3 p,
+    .place-join p {
+        font-size: 22px;
+    }
+
+    .spotlight {
+        grid-column: 3/4;
+        grid-row: 1/4;
+        flex-direction: column;
+    }
+
+    .place-spotlight1,
+    .place-spotlight2 {
+        width: 300px;
+    }
+
+    .ws input {
+        width: 100px;
+    }
+
+
+    .place-spotlight3 {
+        width: 300px;
+        background-color: #325b5e;
+        box-shadow: 0 0 20px #202927;
+        margin: 5px 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .place-news {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin-right: 10px;
+    }
+
+    .card h3 {
+        font-size: 24px;
+
+    }
+
+    .card p {
+        font-size: 20px;
+
+    }
+
+    .joinForm {
+        width: 800px;
+    }
+
+    .title-form {
+
+        font-size: 30px;
+
+    }
+
+
+    form fieldset {
+
+        font-size: 26px;
+
+
+    }
+
+    form legend {
+        font-size: 28px;
+    }
+
+    form label.info {
+        font-size: 26px;
+
+
+    }
+
+
+
+    #benefits h2 {
+
+        font-size: 28px;
+    }
+
+    #nonprofit,
+    #bronze,
+    #silver,
+    #gold {
+        font-size: 24px;
+    }
+
+    .thankyou {
+        font-size: 26px;
+    }
+
+    .grid .information {
+        width: 900px;
+    }
+
+    .directory_menu button {
+        font-size: 22px;
+    }
+
+    .grid h2,
+    .list h2 {
+        font-size: 28px;
+    }
+
+    .information h3 {
+        font-size: 22px
+    }
+
+    .information h4,
+    .information p {
+        font-size: 20px
+    }
+
+    .information a {
+        font-size: 18px;
+    }
+
+   
+}
