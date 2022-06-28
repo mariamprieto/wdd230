@@ -1,6 +1,6 @@
 @media only screen and (min-width:35rem) {
 
-    /*----------- apply style header--------------*/
+     /*----------- apply style header--------------*/
     .logo img {
         width: 100px;
     }
@@ -13,7 +13,7 @@
         font-size: 20px;
     }
 
-    .name_company p {
+    .name_company p, .date-information {
         font-size: 22px;
     }
 
@@ -22,9 +22,6 @@
         margin-right: 30px;
     }
 
-    .date-information {
-        font-size: 22px;
-    }
 
     /*----------- apply style main content--------------*/
     .content {
@@ -87,7 +84,7 @@
     .place-event p,
     .place-weather p,
     .place-news p,
-    .place-join p {
+    .place-join p, .information-footer span {
         font-size: 22px;
     }
 
@@ -96,7 +93,7 @@
     .place-event a{
         font-size: 22px;
     }
-
+/*----------- apply style footer--------------*/
 
     .information-footer {
         display: grid;
@@ -107,12 +104,10 @@
         grid-column: 1/2;
     }
 
-
     .last-update {
         grid-column: 1/4;
-
     }
-
+/*----------- apply style discover page--------------*/
     .card h3 {
         font-size: 22px;
 

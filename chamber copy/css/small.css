@@ -204,7 +204,7 @@ header {
     font-size: 18px;
 }
 
-.place-event  {
+.place-event, .place-news  {
     display: flex;
     flex-direction: column;
    justify-content: center;
