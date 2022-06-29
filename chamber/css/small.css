@@ -447,6 +447,12 @@ footer {
 
 }
 
+.date_visited{
+    font-size: 16px;
+    color: #f2e8e1;
+    text-align: center;
+    padding: 5px;
+}
 /*----------- apply style join page--------------*/
 
 .join_content {
