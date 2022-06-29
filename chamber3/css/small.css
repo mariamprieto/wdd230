@@ -371,7 +371,7 @@ footer {
 
 /*----------- apply style discover page--------------*/
 
-.discover-content {
+.discover-content{
     background-color: #f2e8e1;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -448,6 +448,13 @@ footer {
 }
 
 /*----------- apply style join page--------------*/
+
+.join_content {
+    padding: 5px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 20px #202927;
+}
 
 .title-form {
     text-align: center;
@@ -567,8 +574,11 @@ form label.submit {
 }
 
 .thankyou {
+    padding-top:200px;
+    padding-bottom:200px;
     text-align: center;
     font-size: 20px;
+    background-color: #f2e8e1;
 }
 
 /*----------- apply directory--------------*/

@@ -1,6 +1,6 @@
 @media only screen and (min-width:35rem) {
 
-     /*----------- apply style header--------------*/
+    /*----------- apply style header--------------*/
     .logo img {
         width: 100px;
     }
@@ -13,7 +13,8 @@
         font-size: 20px;
     }
 
-    .name_company p, .date-information {
+    .name_company p,
+    .date-information {
         font-size: 22px;
     }
 
@@ -84,16 +85,20 @@
     .place-event p,
     .place-weather p,
     .place-news p,
-    .place-join p, .information-footer span,.card p {
+    .place-join p,
+    .information-footer span,
+    .card p {
         font-size: 22px;
     }
 
     .place-event h3,
     .place-weather h3,
-    .place-event a, .card h3{
+    .place-event a,
+    .card h3 {
         font-size: 22px;
     }
-/*----------- apply style footer--------------*/
+
+    /*----------- apply style footer--------------*/
 
     .information-footer {
         display: grid;
@@ -107,33 +112,33 @@
     .last-update {
         grid-column: 1/4;
     }
-/*----------- apply style discover page--------------*/
-        .discover-content {
-            display:grid;
-            grid-template-columns: 1fr 1fr;
-        }
-        .discover-content h2{
-            grid-column: 1/4;
-        }
-        .card-content{
-            justify-content:space-around;
-        }
+
+    /*----------- apply style discover page--------------*/
+    .discover-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .discover-content h2 {
+        grid-column: 1/4;
+    }
+
+    .card-content {
+        justify-content: space-around;
+    }
+
+    /*----------- apply style join page--------------*/
     .joinForm {
         width: 500px;
     }
 
     .title-form {
-
         font-size: 26px;
 
     }
 
-
     form fieldset {
-
         font-size: 22px;
-
-
     }
 
     form legend {
@@ -143,12 +148,10 @@
     form label.info {
         font-size: 22px;
 
-
     }
 
 
     #benefits h2 {
-
         font-size: 24px;
     }
 
