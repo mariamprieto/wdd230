@@ -81,7 +81,7 @@
     .place-event p,
     .place-weather p,
     .place-news p,
-    .place-join p, .information-footer span {
+    .place-join p, .information-footer span,.card p {
         font-size: 26px;
     }
 
@@ -136,10 +136,7 @@
 
     }
 
-    .card p {
-        font-size: 20px;
-
-    }
+    
 
     .joinForm {
         width: 800px;

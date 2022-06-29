@@ -84,13 +84,13 @@
     .place-event p,
     .place-weather p,
     .place-news p,
-    .place-join p, .information-footer span {
+    .place-join p, .information-footer span,.card p {
         font-size: 22px;
     }
 
     .place-event h3,
     .place-weather h3,
-    .place-event a{
+    .place-event a, .card h3{
         font-size: 22px;
     }
 /*----------- apply style footer--------------*/
@@ -108,16 +108,16 @@
         grid-column: 1/4;
     }
 /*----------- apply style discover page--------------*/
-    .card h3 {
-        font-size: 22px;
-
-    }
-
-    .card p {
-        font-size: 18px;
-
-    }
-
+        .discover-content {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .discover-content h2{
+            grid-column: 1/4;
+        }
+        .card-content{
+            justify-content:space-around;
+        }
     .joinForm {
         width: 500px;
     }
