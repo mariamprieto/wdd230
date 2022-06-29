@@ -168,26 +168,19 @@
         font-size: 24px;
     }
 
+/*----------- apply style directory page--------------*/
+
 
     .list .information div {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
+       display:grid;
+       grid-template-columns: 1fr 1fr;
+                    
     }
+        .list .information p {
+            display: block;
+    
+        }
 
-    .list .information img {
-        margin: 5px;
-        display: block;
-
-    }
-
-    .list .information h3,
-    .list .information h4 {
-        padding: 10px;
-
-
-    }
 
     .information img {
         width: 200px;
