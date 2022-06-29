@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber of commerce about Venezuela's Beach</title>
+    <title>Join Venezuela Chamber Commerce</title>
     <meta name="description"
-        content="This web page contains the Chamber of Commerce of Venezuela where we will locate the different beaches that you can visit in this country and what kind of activities can be done in it." />
-    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Zilla+Slab:ital,wght@1,300&display=swap"
-        rel="stylesheet">
+        content="Join Venezuela Chamber Commerce presents you with the subscription form in this organization with its different membership plans." />
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;400&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -23,13 +22,12 @@
     <header>
         <section class="information_company">
             <div class="logo">
-                <img src="images/beach3.png" alt="Venezuela Beach" />
+                <img src="images/industrial_logo.png" alt=" Venezuela Chamber Commerce Logo" />
             </div>
             <div class="name_company">
                 <h1>Venezuela</h1>
                 <p>Chamber of Commerce</p>
             </div>
-
             <div class="socialmedia">
                 <a href="https://www.facebook.com">
                     <img src="images/facebook_icon3.png" alt="FaceBook Social Media">
@@ -38,14 +36,15 @@
                     <img src="images/linkedin_icon3.png" alt="Linkedln Social Media">
                 </a>
             </div>
-
+    
             <nav class="menu">
                 <button id="hamburger"><span>&#9776;</span><span>x</span></button>
                 <ul id="primaryNav">
-                    <li><a href="index.hmtl">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="directory.html">Directory</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
             <div class="date-information">
@@ -53,14 +52,14 @@
                 <div class="message"></div>
             </div>
         </section>
-
+    
     </header>
 
-    <main>
+    <main class="join_content">
 
         <h2 class="title-form">Join the Chamber of Commerce</h2>
         <div class="joinForm">
-                    <form method="get" action="./thankyou.html">
+            <form method="get" action="./thankyou.html">
                 <fieldset>
                     <legend>Contact Information</legend>
                     <label class="info">First Name* <input type="text" name="fname" required></label>
@@ -81,57 +80,57 @@
                 </fieldset>
                 <fieldset>
                     <legend>Membership Level</legend>
-                   
+
                     <select id="membership" onchange="changeStatus()">
                         <option value="select">Select one</option>
                         <option value="nonprofit">NP Membership</option>
                         <option value="bronze">Bronze Membership</option>
-                        <option value="silver" >Silver Membership</option>
-                        <option value="gold" >Gold Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
                     </select>
                 </fieldset>
                 <aside>
-                    
+
                     <div id="benefits">
                         <h2>Membership Benefits</h2>
                         <div id="nonprofit">
-                        
-                        <h3>Non-Profit Members</h3>
-                        <ul>
-                            <li>Free annual cost</li>
-                            <li>Business listing in our directory</li>
-                            <li>Email alerts regarding chamber events</li>
-                        </ul>
+
+                            <h3>Non-Profit Members</h3>
+                            <ul>
+                                <li>Free annual cost</li>
+                                <li>Business listing in our directory</li>
+                                <li>Email alerts regarding chamber events</li>
+                            </ul>
                         </div>
                         <div id="bronze">
-                        <h3>Bronze Members</h3>
-                        <ul>
-                            <li>Annual cost: $400</li>
-                            <li>Business listing in our directory</li>
-                            <li>Email alerts regarding chamber events</li>
-                            <li>Company spotlight on our website</li>
-                        </ul>
+                            <h3>Bronze Members</h3>
+                            <ul>
+                                <li>Annual cost: $400</li>
+                                <li>Business listing in our directory</li>
+                                <li>Email alerts regarding chamber events</li>
+                                <li>Company spotlight on our website</li>
+                            </ul>
                         </div>
                         <div id="silver">
-                        <h3>Silver Members</h3>
-                        <ul>
-                            <li>Annual Cost: $600</li>
-                            <li>Business listing in our directory</li>
-                            <li>Email alerts regarding chamber events</li>
-                            <li>Company spotlight on our website</li>
-                            <li>10%  of discounts all transaction</li>
-                        </ul>
+                            <h3>Silver Members</h3>
+                            <ul>
+                                <li>Annual Cost: $600</li>
+                                <li>Business listing in our directory</li>
+                                <li>Email alerts regarding chamber events</li>
+                                <li>Company spotlight on our website</li>
+                                <li>10% of discounts all transaction</li>
+                            </ul>
                         </div>
                         <div id="gold">
-                        <h3>Gold Members</h3>
-                        <ul>
-                            <li>Annual Cost: $800</li>
-                            <li>Business listing in our directory</li>
-                            <li>Email alerts regarding chamber events</li>
-                            <li>Company spotlight on our website</li>
-                            <li>30% of discounts all transaction</li>
-                            <li>Free access to marketing and networking events</li>
-                        </ul>
+                            <h3>Gold Members</h3>
+                            <ul>
+                                <li>Annual Cost: $800</li>
+                                <li>Business listing in our directory</li>
+                                <li>Email alerts regarding chamber events</li>
+                                <li>Company spotlight on our website</li>
+                                <li>30% of discounts all transaction</li>
+                                <li>Free access to marketing and networking events</li>
+                            </ul>
                         </div>
                     </div>
                 </aside>
@@ -143,38 +142,30 @@
     </main>
 
 
-    <footer>
+<footer>
+    <div class="information-footer">
+        <div class="image-footer">
 
-
-        <div class="information-footer">
-            <div class="image-footer">
-
-                <img src="images/beach3.png" alt="Venezuela Beach" />
-            </div>
-            <div class="information-general">
-
-                <h2> Venezuela</h2>
-                <p>Chamber of Commerce</p>
-
-
-                <div class="address">
-
-                    <p>48119 Sao Bernardo do Campo</p>
-                    <p>Sao Paulo, Brazil 09842-080</p>
-                </div>
-            </div>
-            <div class="contact">
-                <p>prietobassociates@pba.org</p>
-                <p>+55(11)96239-1232</p>
-                <p class="map">Map Link</p>
-            </div>
-
-            <div class="last-update">&copy;<span id="currentyear"></span>.<p>:|:. Maria M. Prieto B .:|:. Venezuela <br>
-                    Last Updated: <span id="lastupdated"></span></p>
-            </div>
-
+            <img src="images/industrial_logo.png" alt="Venezuela Chamber Commerce Logo " />
         </div>
-    </footer>
+        <div class="information-general">
+            <h2> Venezuela</h2>
+            <p>Chamber of Commerce</p>
+            <div class="address">
+                <p>48119 Sao Bernardo do Campo</p>
+                <p>Sao Paulo, Brazil 09842-080</p>
+            </div>
+        </div>
+        <div class="contact">
+            <p>venezuelachambercommerce@vcc.org</p>
+            <p>+55(11)96239-1232</p>
+            <p class="map">Map Link</p>
+        </div>
+        <div class="last-update">&copy;<span id="currentyear"></span>.<p>:|:. Maria M. Prieto B .:|:. Venezuela <br>
+                Last Updated: <span id="lastupdated"></span></p>
+        </div>
+    </div>
+</footer>
     <script src="js/date.js"></script>
     <script src="js/message.js"></script>
     <script src="js/menu.js"></script>

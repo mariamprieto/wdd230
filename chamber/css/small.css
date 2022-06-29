@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Anek Malayalam', sans-serif;
 
 }
 
@@ -14,7 +14,6 @@ footer {
     max-width: 1290px;
     width: 100%;
     margin: 0 auto;
-
 }
 
 /*----------- apply style header--------------*/
@@ -33,15 +32,13 @@ header {
     align-items: center;
 }
 
-.logo {
+.logo img{
     width: 60px;
     margin: 5px;
-}
-
-.logo img {
-    width: 100%;
     border-radius: 50%;
 }
+
+
 
 .name_company h1 {
     font-size: 24px;
@@ -129,23 +126,20 @@ header {
     padding: 5px;
     background-color: #325b5e;
     color: #f2e8e1;
-    font-size: 14px;
+    font-size: 16px;
 }
+
 
 /*----------- apply style main content--------------*/
 
 .content {
-    margin-top: 5px;
-    margin-bottom: 5px;
     box-shadow: 0 0 20px #202927;
 }
 
 /*----------- apply style hero-image--------------*/
 
 .hero-image {
-    position: relative;
-    margin-bottom: 5px;
-
+    position: relative;    
 }
 
 .hero-image img {
@@ -162,7 +156,7 @@ header {
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -172,9 +166,9 @@ header {
 .place-news h2,
 .discover-content h2 {
     text-align: center;
-    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: #2F5233;
-    font-weight: bold;
     font-size: 22px;
     text-shadow: #202927 0.1em 0.1em 0.2em;
 }
@@ -194,8 +188,8 @@ header {
 .place-join {
     background-color: #f2e8e1;
     margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 15px;
+    margin-bottom: 8px;
+    padding:10px;
     box-shadow: 0 0 20px #202927;
 }
 
@@ -203,15 +197,22 @@ header {
 
 .place-event h3 {
     text-align: center;
-    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: #202927;
     font-weight: bold;
     font-size: 18px;
 }
 
-.place-event a {
-    color: blue;
-    font-weight: bold;
+.place-event, .place-news  {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.place-event a{
+    color:#325b5e;
+    font-weight: bolder;
     font-size: 18px;
     text-decoration: none;
 }
@@ -220,7 +221,8 @@ header {
 /*----------- apply style place-wheater--------------*/
 
 .place-weather h3 {
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #202927;
     font-weight: bold;
     font-size: 18px;
@@ -230,23 +232,15 @@ header {
 
 .information_degree {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
 .information_weather {
-    padding: 5px;
+    padding-top: 5px;
 }
 
-.degree input {
-    max-width: 50px;
-    padding: 5px;
-    width: 100%;
-    margin: 10px 10px;
-    ;
 
-}
 
 /*----------- apply style place-spotlight--------------*/
 
@@ -264,7 +258,8 @@ header {
     width: 250px;
     background-color: #325b5e;
     box-shadow: 0 0 20px #202927;
-    margin: 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -274,21 +269,27 @@ header {
 
 .place-spotlight1 h2,
 .place-spotlight2 h2,
-.place-spotlight3 h2 {
+.place-spotlight3 h2, .card-content h2 {
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #f2e8e1;
     font-weight: bold;
     font-size: 22px;
     text-shadow: black 0.1em 0.1em 0.2em
 }
 
+.imagen_spotligth img{
+    width:100px;
+}
+
+
 .description {
     font-size: 16px;
     color: #f2e8e1;
     border-top: 3px solid #325b5e;
     text-align: center;
-    padding: 5px;
+    padding-top: 5px;
 }
 
 .phone {
@@ -300,8 +301,7 @@ header {
 
 .subtitle {
     font-style: italic;
-    margin: 10px;
-    padding: 5px;
+    padding-top: 5px;
     color: #f2e8e1;
     font-weight: bold;
     font-size: 18px;
@@ -339,18 +339,21 @@ footer {
     color: #f2e8e1;
 }
 
-
 .information-footer {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.image-footer {
-    margin: 10px;
+.information-general h2{
+    font-size: 22px;
 }
-
-.image-footer img {
+.information-general p {
+    font-size: 16px;
+}
+.image-footer img{
+    margin: 10px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -368,8 +371,26 @@ footer {
 
 /*----------- apply style discover page--------------*/
 
-.discover-content {
+.discover-content{
     background-color: #f2e8e1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: 0 0 20px #202927;
+    
+}
+.information_discover {
+    background-color:#f2e8e1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 20px #202927;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-content {
+    background-color:#325b5e;
     margin-top: 5px;
     margin-bottom: 5px;
     box-shadow: 0 0 20px #202927;
@@ -403,7 +424,7 @@ footer {
 }
 
 .card h3 {
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 5px;
 }
 
@@ -428,6 +449,13 @@ footer {
 
 /*----------- apply style join page--------------*/
 
+.join_content {
+    padding: 5px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 20px #202927;
+}
+
 .title-form {
     text-align: center;
     margin: 0;
@@ -451,7 +479,7 @@ footer {
 form fieldset {
     border: none;
     font-size: 18px;
-  
+
 
 }
 
@@ -459,7 +487,7 @@ form legend {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    padding:5px;
+    padding: 5px;
 
 }
 
@@ -467,9 +495,9 @@ form label.info {
     display: flex;
     flex-direction: column;
     margin-top: 1em;
-    font-size:18px;
+    font-size: 18px;
     font-weight: bold;
-    
+
 }
 
 form fieldset:nth-child(1),
@@ -478,7 +506,8 @@ form fieldset:nth-child(2) {
 }
 
 form label.info input,
-form label.info textarea, form select#membership {
+form label.info textarea,
+form select#membership {
     border-radius: .25em;
     padding: 5px 10px;
 }
@@ -496,24 +525,25 @@ form label.info textarea {
 
 form input.submitBtn {
     width: 50%;
-   padding:10px;
+    padding: 10px;
     margin: 0 0 1em 0;
-    font-size:18px;
+    font-size: 18px;
     font-weight: 600;
     border-radius: 20px;
-    background-color:#325b5e;
-    color:white;
+    background-color: #325b5e;
+    color: white;
     border: none;
 }
-form label.submit{
-    margin-left:20px;
-    
+
+form label.submit {
+    margin-left: 20px;
+
 }
 
-#benefits{
-    display:none;
-    padding:10px;
-    
+#benefits {
+    display: none;
+    padding: 10px;
+
 }
 
 #benefits h2 {
@@ -521,19 +551,21 @@ form label.submit{
     text-align: center;
     margin-bottom: 10px;
 }
+
 #benefits ul {
-       margin-left:10px;
-      
+    margin-left: 10px;
+
 }
 
 #nonprofit,
 #bronze,
 #silver,
 #gold {
-    margin:10px;
+    margin: 10px;
     text-align: justify;
     font-size: 16px;
 }
+
 #nonprofit,
 #bronze,
 #silver,
@@ -541,9 +573,12 @@ form label.submit{
     display: none;
 }
 
-.thankyou{
+.thankyou {
+    padding-top:200px;
+    padding-bottom:200px;
     text-align: center;
     font-size: 20px;
+    background-color: #f2e8e1;
 }
 
 /*----------- apply directory--------------*/
@@ -551,7 +586,7 @@ form label.submit{
 .directory_menu {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
-    background-color:#f2e8e1;
+    background-color: #f2e8e1;
     text-align: center;
 }
 
@@ -559,34 +594,35 @@ form label.submit{
     padding: 1rem;
     font-weight: 900;
     box-shadow: 0 0 20px #202927;
-   
-}
-
-.directory_menu button:hover{
-   background-color: #325b5e;
-   color:#f2e8e1;
 
 }
+
+.directory_menu button:hover {
+    background-color: #325b5e;
+    color: #f2e8e1;
+
+}
+
 article,
-.information{
-    
-    background-color:#325b5e;
+.information {
+
+    background-color: #325b5e;
 }
 
 .information {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
-   
-    
+
+
 }
 
-.information div{
+.information div {
     background-color: #f2e8e1;
     box-shadow: 0 0 20px #f2e8e1;
-    padding:15px;
-    width:300px;
-    
-    
+    padding: 15px;
+    width: 300px;
+
+
 }
 
 .grid {
@@ -594,9 +630,10 @@ article,
     align-items: center;
     justify-content: center;
 }
-.grid h2{
+
+.grid h2 {
     font-size: 22px;
-    color:#f2e8e1;
+    color: #f2e8e1;
     text-align: center;
 }
 
@@ -604,6 +641,7 @@ article,
     display: flex;
     flex-direction: column;
 }
+
 .list h2 {
     font-size: 22px;
     color: #f2e8e1;
@@ -629,11 +667,11 @@ article,
     justify-content: left;
 }
 
-.list .information div{
-    display:flex;
+.list .information div {
+    display: flex;
     flex-direction: column;
-    width:95%;
-    
+    width: 95%;
+
 }
 
 .list .information>* {
@@ -643,7 +681,7 @@ article,
 
 .list .information img {
     display: none;
-    
+
 }
 
 .list .information p {
@@ -652,23 +690,24 @@ article,
 }
 
 .information h3 {
-    font-size:18px ;
-    padding-bottom:2px;
-    padding-top:5px;
-  
+    font-size: 18px;
+    padding-bottom: 2px;
+    padding-top: 5px;
+
 }
 
 .information h4 {
     font-size: 16px;
     padding-top: 5px;
- 
+
 
 }
-.information p{
+
+.information p {
     font-size: 16px;
     padding-top: 5px;
     padding-bottom: 2px;
-    
+
 
 }
 
@@ -676,13 +715,13 @@ article,
     font-size: 14px;
     text-decoration: none;
     font-weight: bold;
-    color:black;
-    
-  
+    color: black;
+
+
 }
 
 .information img {
-    width:150px;
+    width: 150px;
     max-width: 100%;
 
 
