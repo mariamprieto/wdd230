@@ -98,7 +98,6 @@
     .place-event a,
     .card h3,
     .information h3,
-    .subtitle,
     #nonprofit,
     #bronze,
     #silver,
@@ -110,7 +109,9 @@
     }
 
     .information h4,
-    .place-event a {
+    .place-event a,.place-spotlight1 a,
+    .place-spotlight2 a,
+    .place-spotlight3 a {
         font-size: 18px;
     }
 
@@ -134,8 +135,9 @@
     footer span,
     .card p,
     .date_visited p,
-    .description,
-    .phone,
+    .place-spotlight1 p,
+    .place-spotlight2 p,
+    .place-spotlight3 p,
     .information p,
     .directory_menu button, .direction p{
         font-size: 20px;

@@ -532,16 +532,6 @@ footer h2 {
     padding: 5px;
     text-align: center;
 }
-
-.subtitle {
-    font-style: italic;
-    padding-top: 5px;
-    color: #f2e8e1;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
-}
-
 .information h4 {
     font-size: 16px;
 }
@@ -570,13 +560,15 @@ footer p {
 }
 
 .date_visited p,
-.description,
-.phone, .container-form p {
+.place-spotlight1 p,
+.place-spotlight2 p,
+.place-spotlight3 p,e .container-form p {
     font-size: 16px;
     color: #f2e8e1;
     text-align: center;
     padding: 5px;
 }
+
 
 
 
@@ -589,7 +581,9 @@ footer p {
     padding: 5px;
 }
 
-.card_link a,.map a {
+.card_link a,.map a,.place-spotlight1 a,
+.place-spotlight2 a,
+.place-spotlight3 a{
     font-size: 16px;
     text-decoration: none;
     color: #f2e8e1;

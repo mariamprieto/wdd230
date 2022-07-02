@@ -16,7 +16,7 @@
         width: 110px;
     }
 
-  
+
     /*----------- apply style general element to different places--------------*/
     .place-event {
         width: 300px;
@@ -56,7 +56,7 @@
 
     }
 
-    
+
     .spotlight {
         grid-column: 3/4;
         grid-row: 1/4;
@@ -102,80 +102,85 @@
         width: 900px;
     }
 
-        /*----------- apply style general to font-size --------------*/
-        .name_company h1 {
-            font-size: 30px;
-        }
-    
-        footer h2,
-        .place-event h2,
-        .place-weather h2,
-        .place-news h2,
-        .discover-content h2,
-        .place-spotlight1 h2,
-        .place-spotlight2 h2,
-        .place-spotlight3 h2,
-        .card-content h2,
-        #benefits h2,
-        .grid h2,
-        .list h2,
-        .title-form,
-        form legend,
-        .thankyou,
-        .grid h2,
-        .list h2, .direction h2{
-            font-size: 26px;
-        }
-    
-        .place-event h3,
-        .place-weather h3,
-        .place-event a,
-        .card h3,
-        .information h3,
-        .subtitle,
-        #nonprofit,
-        #bronze,
-        #silver,
-        #gold,
-        form label.info,
-        form fieldset,
-        .date-information, .direction h3{
-            font-size: 24px;
-        }
-    
-        .information h4,
-        .place-event a {
-            font-size: 20px;
-        }
-    
-        .menu ul li a,
-        select,
-        .card_link a,.map a
-        .last-update,
-        .information a {
-            font-size: 18px;
-        }
-    
-        .name_company p,
-        .name_company p,
-        footer p,
-        .adress,
-        .contact,
-        .place-event p,
-        .place-weather p,
-        .place-news p,
-        .place-join p,
-        footer span,
-        .card p,
-        .date_visited p,
-        .description,
-        .phone,
-        .information p,
-        .directory_menu button,.direction p{
-            font-size: 22px;
-        }
+    /*----------- apply style general to font-size --------------*/
+    .name_company h1 {
+        font-size: 30px;
+    }
 
-  
+    footer h2,
+    .place-event h2,
+    .place-weather h2,
+    .place-news h2,
+    .discover-content h2,
+    .place-spotlight1 h2,
+    .place-spotlight2 h2,
+    .place-spotlight3 h2,
+    .card-content h2,
+    #benefits h2,
+    .grid h2,
+    .list h2,
+    .title-form,
+    form legend,
+    .thankyou,
+    .grid h2,
+    .list h2,
+    .direction h2 {
+        font-size: 26px;
+    }
+
+    .place-event h3,
+    .place-weather h3,
+    .place-event a,
+    .card h3,
+    .information h3,
+    #nonprofit,
+    #bronze,
+    #silver,
+    #gold,
+    form label.info,
+    form fieldset,
+    .date-information,
+    .direction h3 {
+        font-size: 24px;
+    }
+
+    .information h4,
+    .place-event a,.place-spotlight1 a,
+    .place-spotlight2 a,
+    .place-spotlight3 a {
+        font-size: 20px;
+    }
+
+    .menu ul li a,
+    select,
+    .card_link a,
+    .map a .last-update,
+    .information a {
+        font-size: 18px;
+    }
+
+    .name_company p,
+    .name_company p,
+    footer p,
+    .adress,
+    .contact,
+    .place-event p,
+    .place-weather p,
+    .place-news p,
+    .place-join p,
+    footer span,
+    .card p,
+    .date_visited p,
+    .place-spotlight1 p,
+    .place-spotlight2 p,
+    .place-spotlight3 p,
+    .information p,
+    .directory_menu button,
+    .direction p {
+        font-size: 22px;
+    }
+
+
 
 
 }
