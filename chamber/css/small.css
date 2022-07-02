@@ -17,53 +17,33 @@ footer {
 }
 
 /*----------- apply style header--------------*/
-
 header {
     background-color: #f2e8e1;
     box-shadow: 0 0 20px #202927;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-
-.information_company {
     display: grid;
     grid-template-columns: .3fr 1.5fr .3fr .3fr;
     justify-content: center;
     align-items: center;
+    padding: 5px;
 }
 
-.logo img{
-    width: 60px;
-    margin: 5px;
-    border-radius: 50%;
-}
-
-
-
-.name_company h1 {
-    font-size: 24px;
-    margin: 0;
-    text-align: center;
-    margin-top: 5px;
-}
-
-.name_company p {
-    font-size: 16px;
-    text-align: center;
-    font-weight: bold;
+header img,
+.spotlight img, .information div img{
+    width: 70px;
 }
 
 .socialmedia {
     display: flex;
     flex-direction: row;
     margin-top: 5px;
-    padding: 5px;
-    width: 50px;
 }
 
 .socialmedia img {
+    width: 25px;
     border-radius: 50%;
-    width: 100%;
+    padding: 2px;
 }
 
 #hamburger {
@@ -78,8 +58,8 @@ header {
     background-color: #325b5e;
     box-shadow: 0 0 20px #202927;
     padding: 3px;
-    margin-top: 5px;
     margin-right: 10px;
+    margin-top: 5px;
 }
 
 .menu ul {
@@ -139,7 +119,7 @@ header {
 /*----------- apply style hero-image--------------*/
 
 .hero-image {
-    position: relative;    
+    position: relative;
 }
 
 .hero-image img {
@@ -161,74 +141,21 @@ header {
 }
 
 /*----------- apply style general element to different places--------------*/
-.place-event h2,
-.place-weather h2,
-.place-news h2,
-.discover-content h2 {
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: #2F5233;
-    font-size: 22px;
-    text-shadow: #202927 0.1em 0.1em 0.2em;
-}
 
-.place-event p,
-.place-weather p,
-.place-news p,
-.place-join p {
-    text-align: justify;
-    font-size: 16px;
-}
 
 .place-event,
 .place-weather,
 .place-news,
 .spotlight,
-.place-join {
+.place-join,.information_discover, .card-content{
     background-color: #f2e8e1;
     margin-top: 5px;
-    margin-bottom: 8px;
-    padding:10px;
+    margin-top: 5px;
+    padding: 10px;
     box-shadow: 0 0 20px #202927;
 }
 
-/*----------- apply style place-event--------------*/
-
-.place-event h3 {
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: #202927;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.place-event, .place-news  {
-    display: flex;
-    flex-direction: column;
-   justify-content: center;
-   align-items: center;
-}
-.place-event a{
-    color:#325b5e;
-    font-weight: bolder;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-
 /*----------- apply style place-wheater--------------*/
-
-.place-weather h3 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #202927;
-    font-weight: bold;
-    font-size: 18px;
-    border-bottom: 2px solid #325b5e;
-    text-align: right;
-}
 
 .information_degree {
     display: flex;
@@ -240,17 +167,13 @@ header {
     padding-top: 5px;
 }
 
-
-
 /*----------- apply style place-spotlight--------------*/
 
-.spotlight {
+.spotlight, .information_discover,.card-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .place-spotlight1,
@@ -264,70 +187,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-.place-spotlight1 h2,
-.place-spotlight2 h2,
-.place-spotlight3 h2, .card-content h2 {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #f2e8e1;
-    font-weight: bold;
-    font-size: 22px;
-    text-shadow: black 0.1em 0.1em 0.2em
-}
-
-.imagen_spotligth img{
-    width:100px;
-}
-
-
-.description {
-    font-size: 16px;
-    color: #f2e8e1;
-    border-top: 3px solid #325b5e;
-    text-align: center;
-    padding-top: 5px;
-}
-
-.phone {
-    color: #f2e8e1;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.subtitle {
-    font-style: italic;
-    padding-top: 5px;
-    color: #f2e8e1;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
-}
-
-/*----------- apply style place-join--------------*/
-
-.JoinBtn {
-    display: block;
-    color: #f2e8e1;
-    background-color: #325b5e;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: bold;
-    margin: 10px;
-    text-align: center;
-    box-shadow: 0 0 20px #202927;
-}
 
 /*----------- apply display:none--------------*/
 
 .place-join,
-.place-spotlight3 {
+.place-spotlight3, .list .information img, .list .information p {
     display: none;
 }
 
@@ -337,68 +203,28 @@ footer {
     box-shadow: 0 0 20px #202927;
     text-align: center;
     color: #f2e8e1;
-}
-
-.information-footer {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 5px;
+    margin-top: 5px;
 }
 
-.information-general h2{
-    font-size: 22px;
-}
-.information-general p {
-    font-size: 16px;
-}
-.image-footer img{
+footer img {
     margin: 10px;
     width: 100px;
     border-radius: 50%;
 }
 
-.address,
-.contact {
-    margin-bottom: 10px;
-    margin-top: 5px;
-    font-size: 16px;
-}
-
-.last-update {
-    font-size: 16px;
-    border-top: 1px solid #f2e8e1;
-}
-
 /*----------- apply style discover page--------------*/
 
-.discover-content{
+.discover-content {
     background-color: #f2e8e1;
-    margin-top: 8px;
-    margin-bottom: 8px;
     box-shadow: 0 0 20px #202927;
-    
 }
-.information_discover {
-    background-color:#f2e8e1;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    box-shadow: 0 0 20px #202927;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-}
 .card-content {
-    background-color:#325b5e;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    box-shadow: 0 0 20px #202927;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+    background-color: #325b5e;
 }
 
 .card {
@@ -423,51 +249,12 @@ footer {
     padding: 5px;
 }
 
-.card h3 {
-    font-size: 18px;
-    padding-top: 5px;
-}
 
-.card p {
-    font-size: 16px;
-    padding: 5px;
-    text-align: justify;
-}
-
-.card_link {
-    background-color: #325b5e;
-    padding: 5px;
-    margin-top: 5px;
-
-}
-
-.card_link a {
-    text-decoration: none;
-    color: #f2e8e1;
-
-}
-
-.date_visited{
-    font-size: 16px;
-    color: #f2e8e1;
-    text-align: center;
-    padding: 5px;
-}
 /*----------- apply style join page--------------*/
 
 .join_content {
     padding: 5px;
-    margin-top:5px;
-    margin-bottom: 5px;
     box-shadow: 0 0 20px #202927;
-}
-
-.title-form {
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-    font-size: 22px;
-
 }
 
 .joinForm {
@@ -478,15 +265,11 @@ footer {
     background-color: #f2e8e1;
     border-radius: 3%;
     box-shadow: 0 0 20px #202927;
-
 }
-
 
 form fieldset {
     border: none;
     font-size: 18px;
-
-
 }
 
 form legend {
@@ -500,21 +283,20 @@ form legend {
 form label.info {
     display: flex;
     flex-direction: column;
-    margin-top: 1em;
+    margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
-
 }
 
 form fieldset:nth-child(1),
 form fieldset:nth-child(2) {
-    margin: .75em 0 1em 0;
+    margin: 10px 0 15px 0;
 }
 
 form label.info input,
 form label.info textarea,
 form select#membership {
-    border-radius: .25em;
+    border-radius: 4px;
     padding: 5px 10px;
 }
 
@@ -522,17 +304,19 @@ form select#membership {
 form label.info input:required {
     border-left: 8px #325b5e solid;
 }
-
+select{
+    font-size: 16px;
+}
 
 form label.info textarea {
-    height: 4rem;
-    margin-bottom: .5em;
+    height: 60px;
+    margin-bottom: 8px;
 }
 
 form input.submitBtn {
     width: 50%;
     padding: 10px;
-    margin: 0 0 1em 0;
+    margin: 0 0 16px 0;
     font-size: 18px;
     font-weight: 600;
     border-radius: 20px;
@@ -550,12 +334,6 @@ form label.submit {
     display: none;
     padding: 10px;
 
-}
-
-#benefits h2 {
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 10px;
 }
 
 #benefits ul {
@@ -580,8 +358,8 @@ form label.submit {
 }
 
 .thankyou {
-    padding-top:200px;
-    padding-bottom:200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
     font-size: 20px;
     background-color: #f2e8e1;
@@ -591,35 +369,30 @@ form label.submit {
 
 .directory_menu {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
+    padding: 8px;
     background-color: #f2e8e1;
     text-align: center;
 }
 
 .directory_menu button {
-    padding: 1rem;
+    padding: 16px;
     font-weight: 900;
     box-shadow: 0 0 20px #202927;
-
 }
 
 .directory_menu button:hover {
     background-color: #325b5e;
     color: #f2e8e1;
-
 }
 
 article,
 .information {
-
     background-color: #325b5e;
 }
 
 .information {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
-
-
+    padding: 8px;
 }
 
 .information div {
@@ -627,8 +400,6 @@ article,
     box-shadow: 0 0 20px #f2e8e1;
     padding: 15px;
     width: 300px;
-
-
 }
 
 .grid {
@@ -637,22 +408,12 @@ article,
     justify-content: center;
 }
 
-.grid h2 {
-    font-size: 22px;
-    color: #f2e8e1;
-    text-align: center;
-}
-
 .list {
     display: flex;
     flex-direction: column;
 }
 
-.list h2 {
-    font-size: 22px;
-    color: #f2e8e1;
-    text-align: center;
-}
+
 
 .list .information {
     display: flex;
@@ -685,29 +446,158 @@ article,
     text-align: left;
 }
 
-.list .information img {
-    display: none;
 
+.name_company h1 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    margin-top: 5px;
 }
 
-.list .information p {
-    display: none;
-
+footer h2 {
+    font-size: 22px;
 }
 
-.information h3 {
-    font-size: 18px;
-    padding-bottom: 2px;
+.place-event h2,
+.place-weather h2,
+.place-news h2,
+.discover-content h2,
+.place-spotlight1 h2,
+.place-spotlight2 h2,
+.place-spotlight3 h2,
+.card-content h2 {
+    text-align: center;
     padding-top: 5px;
+    padding-bottom: 5px;
+    color: #2F5233;
+    font-size: 22px;
+    text-shadow: #202927 0.1em 0.1em 0.2em;
+}
 
+.place-spotlight1 h2,
+.place-spotlight2 h2,
+.place-spotlight3 h2,
+.card-content h2 {
+    color: #f2e8e1;
+}
+
+#benefits h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.grid h2,
+.list h2 {
+    font-size: 22px;
+    color: #f2e8e1;
+    text-align: center;
+}
+
+.title-form {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 22px;
+
+}
+
+.place-weather h3,
+.place-event h3 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #202927;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.place-weather h3 {
+    border-bottom: 2px solid #325b5e;
+    text-align: right;
+}
+
+.information h3, .card h3 {
+    font-size: 18px;
+    padding:5px;
+    text-align: center;
+}
+
+.subtitle {
+    font-style: italic;
+    padding-top: 5px;
+    color: #f2e8e1;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
 }
 
 .information h4 {
     font-size: 16px;
-    padding-top: 5px;
+}
 
+.name_company p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.address,
+.contact, footer p {
+    font-size: 16px;
+}
+
+.place-event p,
+.place-weather p,
+.place-news p,
+.place-join p,.card p {
+    text-align: justify;
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px;
 
 }
+
+.date_visited p, .description,
+.phone{
+    font-size: 16px;
+    color: #f2e8e1;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+.place-event a {
+    color: #325b5e;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.card_link a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #f2e8e1;
+
+}
+
+
+.last-update {
+    font-size: 16px;
+    border-top: 1px solid #f2e8e1;
+}
+
+.card_link {
+    background-color: #325b5e;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+
 
 .information p {
     font-size: 16px;
@@ -722,13 +612,6 @@ article,
     text-decoration: none;
     font-weight: bold;
     color: black;
-
-
-}
-
-.information img {
-    width: 150px;
-    max-width: 100%;
 
 
 }

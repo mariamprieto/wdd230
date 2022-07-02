@@ -11,7 +11,6 @@ let data, newTemp, speed;
 async function getWeather() {
   const response = await fetch(api);
   data = await response.json();
-  console.log(data);
   return data;
 }
 
@@ -34,7 +33,7 @@ const getIconDesc = async () => {
   let icon = data.weather[0].icon;
   let desc = data.weather[0].description;
 
-  weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
+  weatherIcon.src = `https://openweathermap.org/img/wn/${icon}.png`;
   weatherIcon.alt = `API Image of ${desc}`;
   iconDesc.textContent = desc.toUpperCase();
 };

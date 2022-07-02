@@ -14,7 +14,7 @@ async function getDirectory() {
 }
 
 function buildDirectory(data) {
-    console.log(data);
+   
 
     data.directory.forEach(company => {
         let card = document.createElement('div');

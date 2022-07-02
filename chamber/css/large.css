@@ -10,23 +10,13 @@
         flex-direction: row;
     }
 
-    .logo img {
-        width: 150px;
+    header img,
+    .spotlight img,
+    .information div img {
+        width: 110px;
     }
 
-    .name_company h1 {
-        font-size: 34px;
-    }
-
-    .menu ul li a {
-        font-size: 24px;
-    }
-
-    .name_company p,
-    .date-information {
-        font-size: 26px;
-    }
-
+  
     /*----------- apply style general element to different places--------------*/
     .place-event {
         width: 300px;
@@ -60,46 +50,17 @@
     }
 
     .hero-image img {
-        width: 100%;
+        object-fit: cover;
         height: 100%;
 
 
     }
 
-    .information-footer h2,
-    .place-event h2,
-    .place-weather h2,
-    .place-news h2,
-    .place-spotlight1 h2,
-    .place-spotlight2 h2,
-    .place-spotlight3 h2,
-    .discover-content h2 {
-        font-size: 30px;
-    }
-
-    .information-footer p,
-    .place-event p,
-    .place-weather p,
-    .place-news p,
-    .place-join p, .information-footer span,.card p {
-        font-size: 26px;
-    }
-
-    .description,
-    .phone {
-        font-size: 20px;
-    }
-
-    .subtitle {
-        font-size: 22px;
-    }
-
+    
     .spotlight {
         grid-column: 3/4;
         grid-row: 1/4;
         flex-direction: column;
-        margin-top: 5px;
-        margin-bottom: 8px;
     }
 
     .place-spotlight1,
@@ -125,92 +86,96 @@
         margin-right: 10px;
     }
 
-    .image-footer img {
+    footer img {
         width: 150px;
 
     }
 
-    /*----------- apply style discover page--------------*/
-    .card h3 {
-        font-size: 24px;
-
-    }
-
-    
-/*----------- apply style join page--------------*/
-
+    /*----------- apply style join page--------------*/
 
     .joinForm {
         width: 800px;
     }
 
-    .title-form {
-
-        font-size: 30px;
-
-    }
-
-
-    form fieldset {
-
-        font-size: 26px;
-
-
-    }
-
-    form legend {
-        font-size: 28px;
-    }
-
-    form label.info {
-        font-size: 26px;
-
-
-    }
-
-
-
-    #benefits h2 {
-
-        font-size: 28px;
-    }
-
-    #nonprofit,
-    #bronze,
-    #silver,
-    #gold {
-        font-size: 24px;
-    }
-
-    .thankyou {
-        font-size: 26px;
-    }
-/*----------- apply style directory page--------------*/
+    /*----------- apply style directory page--------------*/
     .grid .information {
         width: 900px;
     }
 
-    .directory_menu button {
-        font-size: 22px;
-    }
+        /*----------- apply style general to font-size --------------*/
+        .name_company h1 {
+            font-size: 30px;
+        }
+    
+        footer h2,
+        .place-event h2,
+        .place-weather h2,
+        .place-news h2,
+        .discover-content h2,
+        .place-spotlight1 h2,
+        .place-spotlight2 h2,
+        .place-spotlight3 h2,
+        .card-content h2,
+        #benefits h2,
+        .grid h2,
+        .list h2,
+        .title-form,
+        form legend,
+        .thankyou,
+        .grid h2,
+        .list h2 {
+            font-size: 26px;
+        }
+    
+        .place-event h3,
+        .place-weather h3,
+        .place-event a,
+        .card h3,
+        .information h3,
+        .subtitle,
+        #nonprofit,
+        #bronze,
+        #silver,
+        #gold,
+        form label.info,
+        form fieldset,
+        .date-information {
+            font-size: 24px;
+        }
+    
+        .information h4,
+        .place-event a {
+            font-size: 20px;
+        }
+    
+        .menu ul li a,
+        select,
+        .card_link a,
+        .last-update,
+        .information a {
+            font-size: 18px;
+        }
+    
+        .name_company p,
+        .name_company p,
+        footer p,
+        .adress,
+        .contact,
+        .place-event p,
+        .place-weather p,
+        .place-news p,
+        .place-join p,
+        footer span,
+        .card p,
+        .date_visited p,
+        .description,
+        .phone,
+        .information p,
+        .directory_menu button {
+            font-size: 22px;
+        }
 
-    .grid h2,
-    .list h2 {
-        font-size: 28px;
-    }
-
-    .information h3 {
-        font-size: 22px
-    }
-
-    .information h4,
-    .information p {
-        font-size: 20px
-    }
-
-    .information a {
-        font-size: 18px;
-    }
+  
 
 
 }
