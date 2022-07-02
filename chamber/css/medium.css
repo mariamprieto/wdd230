@@ -67,7 +67,8 @@
     .place-event {
         margin-right: 10px;
     }
-/*----------- apply style general to font-size --------------*/
+
+    /*----------- apply style general to font-size --------------*/
     .name_company h1 {
         font-size: 28px;
     }
@@ -86,7 +87,9 @@
     .list h2,
     .title-form,
     form legend,
-    .thankyou, .grid h2, .list h2 {
+    .thankyou,
+    .grid h2,
+    .list h2, .direction h2 {
         font-size: 24px;
     }
 
@@ -101,24 +104,30 @@
     #silver,
     #gold,
     form label.info,
-    form fieldset, .date-information {
+    form fieldset,
+    .date-information, .direction h3{
         font-size: 22px;
     }
 
-    .information h4,.place-event a{
+    .information h4,
+    .place-event a {
         font-size: 18px;
     }
 
     .menu ul li a,
     select,
     .card_link a,
-    .last-update, .information a {
+    .map a .last-update,
+    .information a {
         font-size: 16px;
     }
+
     .name_company p,
-    .name_company p, footer p,
+    .name_company p,
+    footer p,
     .adress,
-    .contact, .place-event p,
+    .contact,
+    .place-event p,
     .place-weather p,
     .place-news p,
     .place-join p,
@@ -126,7 +135,9 @@
     .card p,
     .date_visited p,
     .description,
-    .phone, .information p, .directory_menu button {
+    .phone,
+    .information p,
+    .directory_menu button, .direction p{
         font-size: 20px;
     }
 
@@ -156,9 +167,10 @@
     .discover-content h2 {
         grid-column: 1/4;
     }
-    
 
-    .card-content, .information_discover {
+
+    .card-content,
+    .information_discover {
         justify-content: space-around;
     }
 
@@ -201,4 +213,16 @@
     }
 
 
+    /*----------- apply style contact page--------------*/
+
+    .content_contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .map_contact{
+        grid-row:2/3;
+        grid-column: 1/3;
+    }
 }

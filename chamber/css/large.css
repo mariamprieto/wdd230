@@ -123,7 +123,7 @@
         form legend,
         .thankyou,
         .grid h2,
-        .list h2 {
+        .list h2, .direction h2{
             font-size: 26px;
         }
     
@@ -139,7 +139,7 @@
         #gold,
         form label.info,
         form fieldset,
-        .date-information {
+        .date-information, .direction h3{
             font-size: 24px;
         }
     
@@ -150,7 +150,7 @@
     
         .menu ul li a,
         select,
-        .card_link a,
+        .card_link a,.map a
         .last-update,
         .information a {
             font-size: 18px;
@@ -171,7 +171,7 @@
         .description,
         .phone,
         .information p,
-        .directory_menu button {
+        .directory_menu button,.direction p{
             font-size: 22px;
         }
 

@@ -30,7 +30,8 @@ header {
 }
 
 header img,
-.spotlight img, .information div img{
+.spotlight img,
+.information div img {
     width: 70px;
 }
 
@@ -147,7 +148,9 @@ header img,
 .place-weather,
 .place-news,
 .spotlight,
-.place-join,.information_discover, .card-content{
+.place-join,
+.information_discover,
+.card-content {
     background-color: #f2e8e1;
     margin-top: 5px;
     margin-top: 5px;
@@ -169,7 +172,9 @@ header img,
 
 /*----------- apply style place-spotlight--------------*/
 
-.spotlight, .information_discover,.card-content{
+.spotlight,
+.information_discover,
+.card-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,7 +198,9 @@ header img,
 /*----------- apply display:none--------------*/
 
 .place-join,
-.place-spotlight3, .list .information img, .list .information p {
+.place-spotlight3,
+.list .information img,
+.list .information p {
     display: none;
 }
 
@@ -304,7 +311,8 @@ form select#membership {
 form label.info input:required {
     border-left: 8px #325b5e solid;
 }
-select{
+
+select {
     font-size: 16px;
 }
 
@@ -446,6 +454,7 @@ article,
     text-align: left;
 }
 
+/*----------- apply style to h1, h2, h3, p and a--------------*/
 
 .name_company h1 {
     font-size: 24px;
@@ -465,7 +474,7 @@ footer h2 {
 .place-spotlight1 h2,
 .place-spotlight2 h2,
 .place-spotlight3 h2,
-.card-content h2 {
+.card-content h2, .direction h2{
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -488,7 +497,7 @@ footer h2 {
 }
 
 .grid h2,
-.list h2 {
+.list h2,.container-form h2 {
     font-size: 22px;
     color: #f2e8e1;
     text-align: center;
@@ -517,9 +526,10 @@ footer h2 {
     text-align: right;
 }
 
-.information h3, .card h3 {
+.information h3,
+.card h3, .direction h3 {
     font-size: 18px;
-    padding:5px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -543,23 +553,25 @@ footer h2 {
 }
 
 .address,
-.contact, footer p {
+.contact,
+footer p {
     font-size: 16px;
 }
 
 .place-event p,
 .place-weather p,
 .place-news p,
-.place-join p,.card p {
+.place-join p,
+.card p, .direction p {
     text-align: justify;
     font-size: 16px;
-    text-align: justify;
     padding: 5px;
 
 }
 
-.date_visited p, .description,
-.phone{
+.date_visited p,
+.description,
+.phone, .container-form p {
     font-size: 16px;
     color: #f2e8e1;
     text-align: center;
@@ -577,7 +589,7 @@ footer h2 {
     padding: 5px;
 }
 
-.card_link a {
+.card_link a,.map a {
     font-size: 16px;
     text-decoration: none;
     color: #f2e8e1;
@@ -613,5 +625,20 @@ footer h2 {
     font-weight: bold;
     color: black;
 
-
 }
+
+/*----------- apply style contact page--------------*/
+
+.content_contact {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f2e8e1;
+    align-items: center;
+}
+
+iframe {
+    width: 100%;
+}
+
+

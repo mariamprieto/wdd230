@@ -45,30 +45,64 @@
         </nav>
         <div class="date-information">
             <div class="date" id="date"></div>
-            
+
         </div>
     </header>
-    <main class="content">
+    <main class="content_contact">
+
+        <div class="direction">
+            <h2> Venezuela Chamber of Commerce</h2>
+            <h3>Visit us!</h3>
+            <p>Av Este 2, Caracas 1011</p>
+            <p>Sao, Distrito Capital, Venezuela 1011</p>
+            <p>venezuelachambercommerce@vcc.org</p>
+            <p>+58(212)5713222</p>
+        </div>
+        <div class="map_contact">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26847.912849902874!2d-66.93009128437504!3d10.502028500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a592c1b8151d7%3A0xd316de93a351b2c7!2sCaracas%20Chamber%20of%20Commerce!5e1!3m2!1sen!2sbr!4v1656796651175!5m2!1sen!2sbr"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
        
+            <div class="contactForm">
+            <form method="get" action="./contact_thank.html">
+                <fieldset>
+                    <legend>Contact us!</legend>
+                    <label class="info">First Name* <input type="text" name="fname" required></label>
+                    <label class="info">Last Name* <input type="text" name="lname" required></label>
+                    <label class="info">Email* <input type="email" name="email" placeholder="myemail@gmail.com"
+                            required></label>
+                    <label class="info">Phone* <input type="tel" name="phone" placeholder="12356654321" required></label>
+                </fieldset>
+                <fieldset>
+                    <label class="info">Message<textarea name="message"
+                            placeholder="Type your message here...."></textarea></label>
+                                    </fieldset>
+            
+                <label class="submit"><input type="submit" value="Join Now" class="submitBtn"></label>
+            </form>
+            </div>
     </main>
 
     <footer>
         <div class="image-footer">
-    
+
             <img src="images/industrial_logo.png" alt="Venezuela Chamber Commerce Logo " />
         </div>
         <div class="information-general">
             <h2> Venezuela</h2>
             <p>Chamber of Commerce</p>
             <div class="address">
-                <p>48119 Sao Bernardo do Campo</p>
-                <p>Sao Paulo, Brazil 09842-080</p>
+                <p>Av Este 2, Caracas 1011</p>
+                <p>Sao, Distrito Capital, Venezuela 1011</p>
             </div>
         </div>
         <div class="contact">
             <p>venezuelachambercommerce@vcc.org</p>
-            <p>+55(11)96239-1232</p>
-            <p class="map">Map Link</p>
+            <p>+58(212)5713222</p>
+            <p class="map"><a href="contact.html">Map Link</a></p>
         </div>
         <div class="last-update">&copy;<span id="currentyear"></span>.<p>:|:. Maria M. Prieto B .:|:. Venezuela <br>
                 Last Updated: <span id="lastupdated"></span></p>
