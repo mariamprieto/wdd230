@@ -1,10 +1,10 @@
-@media only screen and (min-width:64rem) {
+@media only screen and (min-width:1024px) {
 
-    .menu{
+.nav_bar{
         display:none;
     }
 
-    .list_menu{
+.menu{
         margin-left: 0;
         display:flex;
     }
@@ -17,12 +17,11 @@
     overflow: visible;
     top:53px;
     width:200px;
-   z-index: 1000;
-   visibility: hidden;
+    z-index: 1000;
+    visibility: hidden;
 }
 
 .container_submenu:hover .submenu{
-    visibility:visible;
-    
+    visibility:visible;}
    
 }

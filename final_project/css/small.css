@@ -9,7 +9,7 @@ body{
 font-family: 'Zilla Slab', serif;
 }
 
-.menu{
+.nav_bar{
     background-color: #E38646;
     padding:20px;
     display:block;
@@ -19,16 +19,20 @@ font-family: 'Zilla Slab', serif;
     width: 100%;
 }
 
-.list_menu, .submenu{
+.menu, .submenu{
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.list_menu{
+.menu{
     background-color: #555;
     width:100%;
     margin-left: -100%;
+}
+
+.display{
+    margin-left: 0;
 }
 .menu_link{
     display:block;
@@ -37,11 +41,21 @@ font-family: 'Zilla Slab', serif;
     font-size:12px;
     text-decoration: none;
 }
+
+.menu_link:hover{
+    background-color: #444;
+}
+
+.submenu .menu_link:hover{
+    background-color:#444 ;
+}
 .submenu{
     height:0;
     overflow: hidden;
     transition: all 0.3s;
 }
+
+
 .submenu .menu_link{
     background-color:#E38646;
     padding-left: 40px;
