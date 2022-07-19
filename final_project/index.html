@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Zilla+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -24,23 +27,22 @@
 <body>
     <header>
         <img src="images/Temple Inn & Suite-modified.png" alt="Temple Inn & Suites hotel group logo">
-        <nav >
-            <ul>
-                <li><a href='index.html'>Home</a></li>
-                <li><a href='temples.html'>Temple</a>
-                <li><a href='reservation.html'>Reservation</a></li>
-                <li><a href='services.html'>Services</a>
-                    <ul>
-                        <li><a href='reception.html'>Reception Service</a></li>
-                        <li><a href='full_time_temple.html'>Full Time Service</a></li>
+        <span class="menu" id="button_menu"><i class="fa-solid fa-bars"></i>  Menu</span>
+        <nav class="nav_main">
+            <ul class="list_menu" id="list_menu">
+                <li class="menu_item"><a href='index.html' class="menu_link">Home</a></li>
+                <li class="menu_item"><a href='temples.html' class="menu_link">Temple</a>
+                <li class="menu_item"><a href='reservation.html'class="menu_link">Reservation</a></li>
+                <li class="menu_item container_submenu"><a href='#' class="menu_link button_submenu">Services <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="submenu"> 
+                        <li class="menu_item"><a href='service_reception.html' class="menu_link">Reception Service</a></li>
+                        <li class="menu_item"><a href='service_full_time.html' class="menu_link">Full Time Service</a></li>
                     </ul>
                 </li>
-                <li><a href='contact.html'>Contact</a></li>
+                <li class="menu_item"><a href='contact.html' class="menu_link">Contact</a></li>
             </ul>
        </nav>
-    <div >
-        <div></div>
-    </div>
+   
     </header>
     <main class="container">
 
