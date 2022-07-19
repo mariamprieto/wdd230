@@ -1,7 +1,78 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
 font-family: 'Zilla Slab', serif;
 }
 
-h1{
-    font-family: 'Nanum Gothic', sans-serif;
+header {
+    background-color: #f44336;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
 }
+
+
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+img{
+    width:200px;
+}
+ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #ef9a9a;
+}
+
+#hamburger div,
+#hamburger:after,
+#hamburger:before {
+    border-radius: 3px;
+    background-color: #fff;
+    height: 5px;
+    width: 40px;
+    content: '';
+    display: block;
+    margin: 7px 0;
+    transition: all .2s ease-in-out;
+}
+
+#hamburger {
+    cursor: pointer;
+    display: none;
+}
+
+#hamburger:hover:before {
+    transform: translateY(12px) rotate(135deg);
+}
+
+#hamburger:hover:after {
+    transform: translateY(-12px) rotate(-135deg);
+}
+
+#hamburger:hover div {
+    /*transform: scale(0);*/
+    transform: translateX(-30px);
+    opacity: 0;
+}
+
