@@ -1,28 +1,7 @@
 @media only screen and (min-width:1024px) {
 
-.nav_bar{
-        display:none;
+#btn-mobile {
+        display: none;
     }
-
-.menu{
-        margin-left: 0;
-        display:flex;
-    }
-
-.container_submenu{
-    position: relative;
-}
-.submenu{
-    position: absolute;
-    overflow: visible;
-    top:53px;
-    width:200px;
-    z-index: 1000;
-    visibility: hidden;
-}
-
-.container_submenu:hover .submenu{
-    visibility:visible;}
-
    
 }
