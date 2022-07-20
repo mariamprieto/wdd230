@@ -5,6 +5,8 @@ button_menu.addEventListener("click", function () {
     menu.classList.toggle("display");
 });
 
+
+
 const subMenuBtn = document.querySelectorAll(".submenu_btn");
 for (let i = 0; i < subMenuBtn.length; i++) {
     subMenuBtn[i].addEventListener("click", function () {

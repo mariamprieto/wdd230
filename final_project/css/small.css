@@ -9,12 +9,12 @@ body{
 font-family: 'Zilla Slab', serif;
 }
 
+/*---apply style to menu responsive---*/
 .nav_bar{
     background-color: #E38646;
     padding:20px;
     display:block;
     color:white;
-    cursor:pointer;
     font-size: 14px;
     width: 100%;
 }
@@ -34,6 +34,8 @@ font-family: 'Zilla Slab', serif;
 .display{
     margin-left: 0;
 }
+
+
 .menu_link{
     display:block;
     padding:20px;
@@ -52,11 +54,16 @@ font-family: 'Zilla Slab', serif;
 .submenu{
     height:0;
     overflow: hidden;
-    transition: all 0.3s;
-}
 
+}
 
 .submenu .menu_link{
     background-color:#E38646;
     padding-left: 40px;
+}
+/*---apply style to image responsive---*/
+.responsive{
+    max-width:200px;
+    width:100%;
+    height: auto;
 }
