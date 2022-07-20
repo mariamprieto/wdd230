@@ -1,100 +1,108 @@
 {
-    "directory": [
+    "temple": [
+                 {
+            "name": "Caracas Venezuela Temple",
+            "address":"Avenida. C con Calle C-1, Urb Caurimare Caracas 1062-A, Dependencias Federales Venezuela",
+            "dedicated":"20 August 2000",
+            "phone": "(58) 212-985-3051",
+            "website": "https://www.churchofjesuschrist.org/temples/details/caracas-venezuela-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/b5/4b/b54bce7c65d95df6005c7424e945a15a95fe611e/caracas_venezuela_temple.jpeg"
+        }, 
         {
-            "name": "Alimentos Polar ",
-            "address":"Autopista Regional del Centro, San Joaquin, Estado Carabobo",
-            "activity":"Food Companies.",
-            "phone": "(+58-800)372 8242",
-            "website": "https://empresaspolar.com/",
-            "imagen": "data:image/png;base64,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"
+            "name": "São Paulo Brazil Temple",
+            "address":"Av. Prof. Francisco Morato, 2390 Caxingui 05512-300 São Paulo - SP, Brazil",
+            "dedicated":"30 October 2004",
+            "phone": "(55) 11-3723-7600",
+            "website": "https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/9e/49/9e49d0f341d5afcd33165fb4bcd2c13158dd23b7/sao_paulo_brazil_temple_lds.jpeg"
+        }, 
+        {
+            "name": "Colonia Juárez Chihuahua Mexico Temple",
+            "address":"Chihuahua y Diaz S/N 31857 Colonia Juárez, Chihuahua Mexico",
+            "dedicated":"06 March 1999",
+            "phone": "(52) 636-110-9427",
+            "website": "https://www.churchofjesuschrist.org/temples/details/colonia-juarez-chihuahua-mexico-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/7d/e4/7de41648902658062ff9329eacb18f463c57fb9a/colonia_juarez_mexico_temple_lds.jpeg"
+        }, 
+        {
+            "name": "Rome Italy Temple",
+            "address":"Via di Settebagni 376 Rome RM Italy",
+            "dedicated":"10 March 2019",
+            "phone": "(39) 06-9480-5050",
+            "website": "https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/b5/37/b537f20ccdd2f7ba4f3413a055bcaab21fd3e107/rome_italy_temple.png"
+        }, 
+        {
+            "name": "Bogotá Colombia Temple",
+            "address":"Carrera 46 N°127-45 Bogotá Distrito Capital Colombia",
+            "dedicated":"24 April 1999",
+            "phone": "(57) 1-625-8000",
+            "website": "https://www.churchofjesuschrist.org/temples/details/bogota-colombia-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/f2/5c/f25c27feb4237f0c63d2a46fd45d69355c3b8879/bogota_colombia_temple_lds.jpeg"
+        }, 
+        {
+            "name": "Provo Utah Temple",
+            "address":"2200 Temple Hill Dr Provo UT 84604-1775 United States",
+            "dedicated":"09 February 1972",
+            "phone": "(1) 801-375-5775",
+            "website": "https://www.churchofjesuschrist.org/temples/details/provo-utah-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/f7/43/f743a6a7ecb335e36c8847d1ed3153f44422460e/provo_temple_lds.jpeg"
+        }, 
+        {
+            "name": "Sacramento California Temple",
+            "address":"2110 California Cir Rancho Cordova CA 95742-6415 United States",
+            "dedicated":"03 September 2006",
+            "phone": "(1) 916-357-5870",
+            "website": "https://www.churchofjesuschrist.org/temples/details/palmyra-new-york-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/22/e4/22e4430b9d30b0ddf01189d7ff4e7e303cd91229/sacramento_temple_lds.jpeg"
+        }, 
+        {
+            "name": "Palmyra New York Temple",
+            "address":"2720 Temple Rd Palmyra NY 14522-9573 United States",
+            "dedicated":"06 April 2000",
+            "phone": "(1) 315-597-6001",
+            "website": "https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/5c/5a/5c5a645c1e4912f8373588fc67b1d65d70055a18/palmyra_temple_lds.jpeg"
+        }, 
+        {
+            "name": "Nauvoo Illinois Temple",
+            "address":"50 N Wells St Nauvoo IL 62354 United States",
+            "dedicated":"27 June 2002",
+            "phone": "(1) 217-453-6252",
+            "website": "https://www.churchofjesuschrist.org/temples/details/nauvoo-illinois-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/e6/49/e649267e9549f7693e589079317d987069b799da/nauvoo_temple_lds.jpg"
+        }, 
+        {
+            "name": "Logan Utah Temple",
+            "address":"175 N 300 E Logan UT 84321-4720 United States",
+            "dedicated":"17 May 1884",
+            "phone": "(1) 435-752-3611",
+            "website": "https://www.churchofjesuschrist.org/temples/details/logan-utah-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/07/66/0766f32cfa9c69e9c838361d874aeb819983139a/logan_temple_lds.jpeg"
         },
         {
-            "name": "Hesperia WTC Valencia",
-            "address": "Av. Salvador Feo la Cruz, Naguanagua, Carabobo.",
-            "activity":"Superior category hotel network.",
-            "phone": "(+58-241)515 3000",
-            "website": "https://hoteleshesperia.com.ve/",
-            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWL4AKhhOJ4rmKlG2yXoCF6CXCOtXvwXrPNB9Im6Z4vCUCEtkCkqJW34ALjMIGG7JPqcc&usqp=CAU"
-        },
+            "name": "Jordan River Utah Temple",
+            "address":"10200 S Temple Drive South Jordan UT 84095-8814 United States",
+            "dedicated":"16 November 1981",
+            "phone": "(1) 801-254-3003",
+            "website": "https://www.churchofjesuschrist.org/temples/details/jordan-river-utah-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/e5/54/e5546a3599c023ba83a4d751fb6fc196b5ab6ada/jordan_river_temple_exterior_images.jpeg"
+        }, 
+         {
+            "name": "Denver Colorado Temple",
+            "address":"2001 E Phillips Cir Centennial CO 80122-3264 United States",
+            "dedicated":"24 October 1986",
+            "phone": "(1) 303-730-0220",
+            "website": "https://www.churchofjesuschrist.org/temples/details/denver-colorado-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/f2/3e/f23ea5ed176dc44b1c624868ddd0e05b20675ee0/denver_colorado_temple_grounds.jpeg"
+        },   
         {
-            "name": "Century 21",
-            "address": "Av. Guaicaipuro con Av. Principal Las Mercedes, Edificio FORUM, Piso 4, Urbanización El Rosal, Caracas",
-            "activity": "Real-Estate Services.",
-            "phone": "(+58-212)953 4950",
-            "website": "http://www.century21.com.ve/",
-            "imagen": "https://www.venezuela-directorio.com/base/stock/Place/57699-image/57699-image_small.jpg"
-        },
-        {
-            "name": "T.B.E. Asesoría Jurídica",
-            "address": "Urb. El Bosque Conjunto Residencial Las Espigas, calle de servicio 113-71, casa 12, Av. Cuatricentenaria, Valencia",
-            "activity": "Advisors about Sanitary Registration of food products.",
-            "phone": "(+58-241)823 0817",
-            "website": "http://www.tbepropiedadintelectual.com",
-            "imagen": "https://www.venezuela-directorio.com/base/stock/Place/14868-image/14868-image_small.jpg"
-        },
-        {
-            "name": "U.E Colegio Batalla Carabobo",
-            "address": "Calle 43, Barquisimeto 3001, Lara",
-            "activity": "School for primary",
-            "phone": "+(58-251)446 4187",
-            "website": "https://colegiobatalladelavictoria.com.ve/",
-            "imagen": "https://www.venezuela-directorio.com/base/stock/Place/756-image/756-image_small.jpg"
-        },
-        {
-            "name": "DOC Restaurant",
-            "address": "Avenida Andrés Bello, entre Avenida Francisco de Miranda y 1era Transversal. Los Palos Grandes, Caracas",
-            "activity": "Traditional Venezuelan food restaurant.",
-            "phone": "(+58-212)285 1003",
-            "website": "https://www.doc-restaurant.com/",
-            "imagen": "https://www.venezuela-directorio.com/base/stock/Place/57700-image/57700-image_small.jpg"
-        },
-        {
-            "name": "Kanji Sushi Delivery",
-            "address": "Detrás de Miraflores, Altagracia, Caracas, Distrito Capital",
-            "activity": "Chinese Food Restaurant.",
-            "phone": "(+58-212)714 0956",
-            "website": "https://www.instagram.com/kanjisushi_/",
-            "imagen": "https://www.venezuelayello.com/img/ve/s/1641560337-59-kanji-sushi-delivery.jpg"
-        },
-        {
-            "name": "Caritas San Antonio",
-            "address": "L Plaza, Caditas, PB, 3, San Antonio, San Antonio de Los Altos, Miranda",
-            "activity": "Non-profit organization in charge of helping Venezuelans with precarious situations.",
-            "phone": "(+58-212)372 3073",
-            "website": "https://www.caritas.org/where-caritas-work/latin-america/venezuela/",
-            "imagen": "https://cdn5.dominicanasolidaria.org/wp-content/uploads/2015/10/logotipo-caritas-png1.png"
-        },
-        {
-            "name": "Diagnoimagen",
-            "address": "Av. Fco. de Miranda, Centro Lido, Nivel Galería, Local G-29, El Rosal, Caracas, Distrito Capital",
-            "activity": "Health Center specializing in imaging services",
-            "phone": "(+58-212)952 1041",
-            "website": "http://www.diagnoimagen.com",
-            "imagen": "https://www.venezuelayello.com/img/ve/k/_1629906697-71-diagnoimagen.png"
-        },
-        {
-            "name": "Colegio de Contadores Públicos",
-            "address": " Avenida 101, Dr. Perez Carreño, Valencia, Carabobo",
-            "activity": "Association of members in accounting of the State of Carabobo.",
-            "phone": " (+58-241)825 8550",
-            "website": "https://www.ccpcarabobo.org.ve/web/",
-            "imagen": "https://pbs.twimg.com/media/CeokPWUWsAAjO6h.jpg:large"
-        },
-        {
-            "name": "La Tienda del Pintor",
-            "address": "Avenida Carlos Sanda, Nro. 101-125, Urbanizacion El Vinedo., Valencia, Carabobo",
-            "activity": "Network of paint shops.",
-            "phone": "(+58-241)821 4596",
-            "website": "http://www.latiendadelpintor.com",
-            "imagen": "https://www.venezuelayello.com/img/ve/j/1641294499-56-la-tienda-del-pintor.jpg"
-        },
-        {
-            "name": "Juriprev",
-            "address": "Calle Urdaneta residencias parque central Local N° 49, Ocumare del Tuy, Miranda",
-            "activity": "Legal prevention service",
-            "phone": "(+58-239)224 0298",
-            "website": "https://juriprev.com",
-            "imagen": "https://www.venezuelayello.com/img/ve/e/1609881216-82-juriprev.png"
+            "name": "Brigham City Utah Temple",
+            "address":"250 S Main St Brigham City UT 84302-2560 United States",
+            "dedicated":"23 September 2012",
+            "phone": "(1) 435-695-2170",
+            "website": "https://www.churchofjesuschrist.org/temples/details/brigham-city-utah-temple?lang=eng",
+            "imagen": "https://assets.ldscdn.org/93/92/9392e6adee3d1aa025548de1a852a27ad8ea40f4/brigham_city_utah_temple_dawn.jpeg"
         }
     ]
 }

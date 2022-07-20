@@ -1,18 +1,18 @@
 const requestFile = "json/data.json";
 let value = false;
 let website = "";
-let directory;
-let spotlight = ["place-spotlight1", "place-spotlight2", "place-spotlight3"];
+let temple;
+let information_temple = ["place-temple1", "place-temple2", "place-temple3"];
 
-function fetchData(directory) {
+function fetchData(temple) {
     fetch(requestFile)
         .then(function (response) {
             return response.json();
         })
         .then(function (jsonObject) {
-            directory = jsonObject["directory"];
+            temple = jsonObject["temple"];
 
-            getMembers(directory);
+            getMembers(temple);
         });
 }
 
@@ -29,10 +29,10 @@ function getRandom(max) {
     return int;
 }
 
-function getMembers(directory) {
-    const int = getRandom(directory.length);
+function getMembers(temple) {
+    const int = getRandom(temple.length);
 
-    displaySpotlight(directory, int, spotlight);
+    displaySpotlight(temple, int, information_temple);
 }
 
 function displayCompanyWebsite(listing, value) {
@@ -55,22 +55,22 @@ function displaySpotlight(listing, int, label) {
 
         let container = document.createElement("div");
         container.setAttribute("class", `${spotNum}`);
-        document.querySelector(".spotlight").appendChild(container);
+        document.querySelector(".information").appendChild(container);
 
-        let compName = document.createElement("h2");
+        let templeName = document.createElement("h2");
         let image = document.createElement("img");
         let address = document.createElement("p");
         let phone = document.createElement("p");
         let website = displayCompanyWebsite(listing[compNum], value);
 
-        compName.textContent = `${listing[compNum].name}`;
+        templeName.textContent = `${listing[compNum].name}`;
         address.textContent = `${listing[compNum].address}`;
         phone.textContent = `${listing[compNum].phone}`;
         image.setAttribute("src", listing[compNum].imagen);
         image.setAttribute("alt", `${listing[compNum].name} logo`);
         
         
-        container.appendChild(compName);
+        container.appendChild(templeName);
         container.appendChild(image);
         container.appendChild(address);
         container.appendChild(phone);
