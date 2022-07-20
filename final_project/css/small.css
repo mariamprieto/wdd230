@@ -21,6 +21,7 @@ h1,
 h2,
 h3 {
     font-family: 'Zilla Slab', serif;
+    margin:0;
 }
 
 h1 {
@@ -29,7 +30,8 @@ h1 {
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 18px;
+    text-align: center;
 }
 
 h3 {
@@ -38,12 +40,20 @@ h3 {
 
 p {
     font-size: 12px;
+    margin-bottom:5px;
 }
 
 a {
     font-size: 12px;
     color: black;
     text-decoration: none;
+}
+hr {
+    width: 100%;
+    text-align: center;
+    border:1px solid;
+    border-color: #D3B5E5;
+    margin-bottom: 5px;
 }
 
 header {
@@ -53,7 +63,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #F8C0C8;
+    background-color:#D3B5E5;
     margin-bottom: 5px;
 }
 
@@ -63,10 +73,10 @@ header {
     padding: 2px;
 }
 
-.social_media{
+.social_media {
     width: 25px;
     border-radius: 50%;
-    padding:2px;
+    padding: 2px;
 }
 
 #menu {
@@ -95,8 +105,6 @@ header {
     visibility: visible;
     overflow-y: auto;
 }
-
-
 
 #btn-mobile {
     display: flex;
@@ -139,12 +147,51 @@ header {
 
 /*--apply style to main--*/
 
+.container {
+    background-color: #EFE7D3;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #202927;
+    margin-bottom: 5px;
+    padding:10px;
+}
+/*--apply style to hero-main--*/
+.container img {
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.ppal_image {
+    position: relative;
+}
+
+.hero_btn {
+    position: absolute;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color:black;
+    box-shadow: 0 0 20px #F8C0C8;
+    background-color:#D3B5E5;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/*--apply style to about-us--*/
 .about {
     margin: 10px
 }
-
+.title{
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-bottom: 5px;
+    
+}
+/*--apply style to hotel facilities--*/
 .content {
-    width: 600px;
+    max-width: 320px;
+    width: 100%;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
@@ -210,4 +257,38 @@ input {
 
 #slide5:checked~.s1 {
     margin-left: -80%;
+}
+
+
+/*--apply style to footer--*/
+
+.information{
+    width:85%;
+   margin-top: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 5px;
+    padding:5px;
+    
+}
+
+.information div{
+    margin-bottom:10px;
+    box-shadow: 0 0 20px #202927;
+    border:2px solid #D3B5E5;
+    border-radius: 5px;
+    padding:10px;
+}
+.information div:hover{
+    cursor:pointer;
+    box-shadow: 0 0 20px #D3BBDD;
+}
+
+/*--apply style to footer--*/
+
+footer {
+    background-color:#D3BBDD;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #202927;
+    margin-bottom: 5px;
 }
