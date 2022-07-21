@@ -13,36 +13,42 @@ async function getDirectory() {
     }
 }
 
-function buildDirectory(data) {
-   
 
-    data.temple.forEach(temple => {
+function buildDirectory(data) {
+  
+
+    data.temple.forEach(temples => {
         let card = document.createElement('div');
-        let nameTemple = document.createElement('h3');
-        let dedicateDate = document.createElement('h4');
+        let nameTemple = document.createElement('h2');
+        nameTemple.classList.add("name_temple")
+        let dedicateDate = document.createElement('h3');
+        dedicateDate.classList.add("dedicated")
         let website = document.createElement('a');
+        website.classList.add("web_temple")
         let address = document.createElement('p');
+        address.classList.add("temple_address")
         let phone = document.createElement('p');
+        phone.classList.add("temple_phone");
         let imagen = document.createElement('img');
        
       
 
-        nameTemple.innerHTML = `${temple.name}`;
-        address.innerHTML = `<strong>Address:</strong> ${temple.address}`;
-        phone.innerHTML= `<strong>Phone:</strong> ${temple.phone}`
-        dedicareDate.innerHTML = ` ${temple.activity}`;
-        website.setAttribute("href", `${temple.website}`);
-        website.innerHTML = ` ${temple.website}`;
-        imagen.setAttribute('src', temple.imagen);
-        imagen.setAttribute('alt', `Company Name ${temple.name}`);
+        nameTemple.innerHTML = `${temples.name}`;
+        address.innerHTML = `<strong>Address:</strong> ${temples.address}`;
+        phone.innerHTML= `<strong>Phone:</strong> ${temples.phone}`
+        dedicateDate.innerHTML = ` ${temples.dedicated}`;
+        website.setAttribute("href", `${temples.website}`);
+        website.innerHTML = `<a href=${temples.website}><strong> WebSite <strong></a>` ;
+        imagen.setAttribute('src', temples.imagen);
+        imagen.setAttribute('alt', ` ${temples.name}`);
         imagen.setAttribute('loading', 'lazy');
 
        
         card.append(imagen);
-        card.append(nameCompany);
-        card.append(activity);
-        card.append(address);
+        card.append(nameTemple);
         card.append(phone);
+        card.append(dedicateDate);
+        card.append(address);
         card.append(website);
        
 
@@ -52,3 +58,5 @@ function buildDirectory(data) {
 }
 
 getDirectory();
+
+

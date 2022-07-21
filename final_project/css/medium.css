@@ -43,7 +43,7 @@
 
     }
 
-    .information {
+    .card_temple {
         display: flex;
         flex-direction: row;
         justify-content: space-around;

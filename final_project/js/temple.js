@@ -55,7 +55,7 @@ function displaySpotlight(listing, int, label) {
 
         let container = document.createElement("div");
         container.setAttribute("class", `${spotNum}`);
-        document.querySelector(".information").appendChild(container);
+        document.querySelector(".card_temple").appendChild(container);
 
         let templeName = document.createElement("h2");
         let image = document.createElement("img");
