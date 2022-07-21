@@ -220,13 +220,15 @@ header {
 }
 
 .bar {
-    width: 20px;
-    height: 17px;
+    width: 30px;
+    background-color: #F8C0C8;
     border: 2px solid #fff;
     margin: 6px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.6s;
+    text-align: center;
+    font-weight: bolder;
 }
 
 .bar:hover {
