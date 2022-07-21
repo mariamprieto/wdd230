@@ -52,24 +52,33 @@
 
     .build_temple {
         display: block;
-        margin:10px;
-        background-color: #D3BBDD;    
+        margin: 10px;
+        background-color: #D3BBDD;
         box-shadow: 0 0 20px #202927;
-        padding:5px;
-        text-align: center;       
-       
+        padding: 5px;
+        text-align: center;
+
     }
-    .build_temple h2{
+
+    .build_temple h2 {
         margin-top: 5px;
         margin-bottom: 5px;
     }
-        .temple_block li{
-            list-style: none;
-            padding:2px;
 
-        }
-.other_information{
-    display: grid;
-    grid-template-columns: 1fr 1fr;}
+    .temple_block li {
+        list-style: none;
+        padding: 2px;
+
+    }
+
+    .other_information {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    input,
+    textarea,#submit {
+        font-size: 14px;
+    }
 
 }

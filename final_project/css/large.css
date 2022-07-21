@@ -51,7 +51,19 @@
       display: none;
   }
 
+  
+  .image_suite {
+      display:flex;
+      flex-direction: column;
+      justify-content: space-around;
+         
 
+  }
+
+  .reservartion_suite{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
 
 
