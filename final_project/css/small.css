@@ -309,6 +309,7 @@ header {
 /*--apply style to information of wheater--*/
 .place-weather {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background-color: #D3BBDD;
@@ -463,4 +464,17 @@ textarea {
 .wdpicture{
     padding:10px;
     
+}
+
+/*--apply style to contact page--*/
+.content_contact {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f2e8e1;
+    align-items: center;
+}
+
+iframe {
+    width: 100%;
 }

@@ -1,57 +1,72 @@
-const weatherIcon = document.querySelector(".weatherIcon");
-const iconDesc = document.querySelector(".iconDesc");
-const localtemp = document.querySelector(".temp");
-const wSpeed = document.querySelector(".windSpeed");
-const wChill = document.querySelector(".wChill");
+function wheaterData(town, lat = 0, lon = 0) {
 
-// Creating a variable with the API URL
-const api = "https://api.openweathermap.org/data/2.5/weather?q=Bethesda&imperial&APPID=da28ef0488cf8a1538d20c2db5897dd8";
-let data, newTemp, speed;
+  const weatherAPI = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=da28ef0488cf8a1538d20c2db5897dd8&units=imperial"
+  const forecastAPI = "https://api.openweathermap.org/data/2.5/forecast?lat=" + lat + "&lon=" + lon + "&appid=da28ef0488cf8a1538d20c2db5897dd8&units=imperial"
+  const alerts = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&exclude=hourly,daily&appid=da28ef0488cf8a1538d20c2db5897dd8"
 
-async function getWeather() {
-  const response = await fetch(api);
-  data = await response.json();
-  return data;
+
+
+  fetch(weatherAPI)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (jsonObject) {
+      console.log(jsonObject);
+
+      document.getElementById("cityname").innerHTML = jsonObject.name;
+      document.getElementById("currently").innerHTML = jsonObject.weather[0].description;
+      document.getElementById("temp").innerHTML = jsonObject.main.temp;
+      document.getElementById("humidity").innerHTML = jsonObject.main.humidity;
+    });
+
+  fetch(forecastAPI)
+    .then((response) => response.json())
+    .then((jsonObject) => {
+      const forecastList = jsonObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+
+      const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+      for (let i = 0; i < 3; i++) {
+
+        const foreDate = new Date(forecastList[i].dt_txt);
+        let iconsrc = 'https://openweathermap.org/img/w/' + forecastList[i].weather[0].icon + '.png';
+
+        let forecastCard = document.createElement('div');
+        let weekday = document.createElement('h3');
+        let img = document.createElement('img');
+        let forecastTemp = document.createElement('p');
+
+        weekday.textContent = weekdays[foreDate.getDay()];
+        img.setAttribute('src', iconsrc);
+        img.setAttribute('alt', forecastList[i].weather[0].description);
+        img.style.width = '4.4em';
+        forecastTemp.innerHTML = forecastList[i].main.temp + '&#176;F';
+
+        forecastCard.appendChild(weekday);
+        forecastCard.appendChild(img);
+        forecastCard.appendChild(forecastTemp);
+
+        document.querySelector('div.dayforecast').appendChild(forecastCard);
+      }
+    });
+
+  fetch(alerts)
+    .then((response) => response.json())
+    .then((jsonOBject) => {
+      console.log(jsonOBject);
+      console.log(jsonOBject.alerts);
+
+      if (jsonOBject.alerts !== undefined) {
+        document.getElementById("Bar").style.display = "block";
+
+        document.getElementById("left").innerHTML = jsonOBject.alerts.description;
+      }
+
+    });
 }
 
-const fillData = async () => {
-  await getWeather();
-  newTemp = data.main.temp;
-  speed = data.wind.speed;
- 
-  let currentTemp = Math.round(newTemp);
-  localtemp.textContent += `${currentTemp}`;
+function Hide(HideID) {
+  HideID.style.display = "none";
+}
 
-  let currentspeed = Math.round(speed);
-  wSpeed.textContent = `${currentspeed} mph`;
+wheaterData("Bethesda",38.9807, -77.1003);
 
-  return newTemp, speed;
-};
-
-const getIconDesc = async () => {
-  await fillData();
-  let icon = data.weather[0].icon;
-  let desc = data.weather[0].description;
-
-  weatherIcon.src = `https://openweathermap.org/img/wn/${icon}.png`;
-  weatherIcon.alt = `API Image of ${desc}`;
-  iconDesc.textContent = desc.toUpperCase();
-};
-
-const calculateWindChill = async () => {
-  await getIconDesc();
-  if (newTemp <= 50 && speed > 3.0) {
-    let chill =
-      35.74 +
-      0.6215 * newTemp -
-      35.75 * speed ** 0.16 +
-      0.4275 * newTemp * speed ** 0.16;
-    chill = Math.round(chill);
-    wChill.innerHTML = `Feels like ${chill}&#176;F`;
-  } else {
-    wChill.textContent = `N/A`;
-  }
-};
-
-
-window.addEventListener("load", calculateWindChill);

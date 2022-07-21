@@ -623,13 +623,7 @@ footer p {
 
 /*----------- apply style contact page--------------*/
 
-.content_contact {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    background-color: #f2e8e1;
-    align-items: center;
-}
+
 
 iframe {
     width: 100%;

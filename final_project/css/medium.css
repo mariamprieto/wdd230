@@ -72,13 +72,22 @@
     }
 
     .other_information {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+                flex-direction: column;       
+    }
+    .place-weather{
+        flex-direction: row;
     }
 
+    .dayforecast{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
     input,
     textarea,#submit {
         font-size: 14px;
     }
 
+    
 }

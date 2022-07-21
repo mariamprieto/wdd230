@@ -23,20 +23,23 @@
 
 <body>
     <header>
-    
+
         <img class="logo" src="images/Temple_Inn_Suite.png" alt="Temple Inn & Suites hotel group logo">
         <div>
             <h1>Temple Inn & Suites</h1>
             <h2>Hotel Group</h2>
         </div>
-    
-        <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram Icon" class="social_media"></a>
-        <a href="https://www.facebook.com"><img src="images/facebook_icon.png" alt="facebook Icon" class="social_media"></a>
-    
+
+        <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram Icon"
+                class="social_media"></a>
+        <a href="https://www.facebook.com"><img src="images/facebook_icon.png" alt="facebook Icon"
+                class="social_media"></a>
+
         <a href="https://www.whatsapp.com/"><img src="images/network_social_icon.png" alt="Whatsapp Icon"
                 class="other_media"></a>
-        <a href="https://www.linkedin.com/"><img src="images/linkedin_icon.png" alt="LinkedIn Icon" class="other_media"></a>
-    
+        <a href="https://www.linkedin.com/"><img src="images/linkedin_icon.png" alt="LinkedIn Icon"
+                class="other_media"></a>
+
         <nav id="nav">
             <button aria-label="Open Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
                 aria-expanded="false"><span id="hamburger"></span>
@@ -49,12 +52,45 @@
                 <li><a href=contact.html>Contact</a></li>
             </ul>
         </nav>
-    
+
     </header>
-    <main class="container"></main>
+    <main class="container reservartion_suite ">
+
+        <article>
+            <h2> Visit us!</h2>
+            <h3>4800 Montgomery Ln #300, Bethesda, MD 20814, USA</h3>
+            
+                <form id="form_hotel" method="get" action="./">
+                    <fieldset>
+                        <legend>Contact us!</legend>
+                        <label class="infor">First Name* <input type="text" name="fname" required></label>
+                        <label class="infor">Last Name* <input type="text" name="lname" required></label>
+                        <label class="infor">Email* <input type="email" name="email" placeholder="myemail@gmail.com"
+                                required></label>
+                        <label class="infor">Phone* <input type="tel" name="phone" placeholder="12356654321" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <label class="info">Message<textarea name="message"
+                                placeholder="Type your message here...."></textarea></label>
+                    </fieldset>
+            
+                    <label class="submit"><input type="submit" value="Join Now" class="submitBtn"></label>
+                </form>
+        </article>
+        <div class="image_suite">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701327!2d-77.09772048527445!3d38.983251779557456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2sbr!4v1658439530112!5m2!1sen!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+        
+        
+    </main>
     <footer>
-    
-    
+
+
         <img src="images/Temple_Inn_Suite.png" alt="Temple Inn & Suites hotel group logo" class="logo">
         <h2>Temple Inn & Suites </h2>
         <h3>Hotel Group</h3>
@@ -62,14 +98,15 @@
             <a href="https://goo.gl/maps/uAB6qAVKE6Mzgyvn7"> MapLink</a>
         </p>
         <p> 4800 Montgomery Ln 300, Bethesda, MD 20814</p>
-    
-    
+
+
         <div class="last-update">
             <p>&copy;<span id="currentyear"></span>
                 :|:. Maria M. Prieto B .:|:. Brazil
                 Last Updated: <span id="lastupdated"></span></p>
         </div>
-    
+
     </footer>
 </body>
+
 </html>
