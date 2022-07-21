@@ -6,11 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temple Inn & Suites Hotel Group</title>
-    <meta name="description" content="Temple Inn & Suites is a hotel chain headquartered in Bethesda, 
-        MD that builds and manages specialized hotel accommodations near temple locations
-        of The Church of Jesus Christ of Latter-day Saints around the world. The hotels 
-        that make up this hotel chain represent a comfortable and accessible place for all
-        people who comply with the principles of the Church." />
+    <meta name="description"
+        content="Meet at our hotels. At every one of our hotels and resorts, you can enjoy unique experiences and 
+        discover places filled with charm, culture, gastronomy, and history." />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Zilla+Slab&display=swap" rel="stylesheet">
@@ -56,93 +54,94 @@
     </header>
     <main class="container reservartion_suite">
         <article>
-        <h2 id="main">Reservations</h2>
-        <form id="form_hotel" method="get" action="./confirmation.html" onsubmit="return validation();">
-            <fieldset id="contactinfo">
-                <legend>Contact Information</legend>
-                <label class="infor">
-                    Name:
-                    <input type="text" name="name" id="name" placeholder="First and last name" required />
-                   </label>
-                   <label class="infor">
-                    Email:
-                    <input type="email" name="email" id="email" placeholder="address@example.com" required />
-                  </label>
-                  <label class="infor">
-                    Phone:
-                    <input type="text" name="phone" id="number" placeholder="555-123-4567" required />
-                </label>
-            </fieldset>
-            <fieldset id="reservationinfo">
-                <legend>Reservation Information</legend>
-                <fieldset id="partysize">
-                    <legend>Number of Person</legend>
-                    <label class="size_room">
-                        Number of Adults
-                        <input class="input-field" type="number" id="adults" name="adults" min="1" max="10" required>
+            <h2 id="main">Reservations</h2>
+            <form id="form_hotel" method="get" action="./confirmation.html" onsubmit="return validation();">
+                <fieldset id="contactinfo">
+                    <legend>Contact Information</legend>
+                    <label class="infor">
+                        Name:
+                        <input type="text" name="name" id="name" placeholder="First and last name" required />
                     </label>
-                    <label class="size_room">Number of children
-                        <input class="input-field" type="number" id="children" name="children" min="0" max="10"
-                            required>
+                    <label class="infor">
+                        Email:
+                        <input type="email" name="email" id="email" placeholder="address@example.com" required />
+                    </label>
+                    <label class="infor">
+                        Phone:
+                        <input type="text" name="phone" id="number" placeholder="555-123-4567" required />
                     </label>
                 </fieldset>
-                <fieldset id="bedpref">
-                    <legend>Type of Room</legend>
-                    <label class="size_room">
-                        Suite Room
-                        <input type="radio" id="suite" value="option1" name="option" />
-                    </label>
-                    <label class="size_room">
-                        Junior Sutie Room
-                        <input type="radio" id="junior" value="option2" name="option" />
-                    </label>
-                    <label class="size_room">
-                        Gran Sutie Room
-                        <input type="radio" id="gran" value="option3" name="option" />
-                    </label>
+                <fieldset id="reservationinfo">
+                    <legend>Reservation Information</legend>
+                    <fieldset id="partysize">
+                        <legend>Number of Person</legend>
+                        <label class="size_room">
+                            Number of Adults
+                            <input class="input-field" type="number" id="adults" name="adults" min="1" max="10"
+                                required>
+                        </label>
+                        <label class="size_room">Number of children
+                            <input class="input-field" type="number" id="children" name="children" min="0" max="10"
+                                required>
+                        </label>
+                    </fieldset>
+                    <fieldset id="bedpref">
+                        <legend>Type of Room</legend>
+                        <label class="size_room">
+                            Suite Room
+                            <input type="radio" id="suite" value="option1" name="option" />
+                        </label>
+                        <label class="size_room">
+                            Junior Sutie Room
+                            <input type="radio" id="junior" value="option2" name="option" />
+                        </label>
+                        <label class="size_room">
+                            Gran Sutie Room
+                            <input type="radio" id="gran" value="option3" name="option" />
+                        </label>
+                    </fieldset>
+                    <fieldset id="quantity_room">
+                        <legend>Number of Room</legend>
+                        <label class="size_room">
+                            Number of Room
+                            <input class="input-field" type="number" id="room" name="room" min="1" max="30" required>
+                        </label>
+                    </fieldset>
+                    <fieldset id="checkin_date">
+                        <legend>Check-in Date</legend>
+                        <input class="item-12" type="date" id="checkin" name="checkin" required>
+                    </fieldset>
+                    <fieldset id="checkout_date">
+                        <legend>Check-out Date</legend>
+                        <input class="item-14" type="date" id="checkout" name="checkout" required>
+                    </fieldset>
+                    <fieldset id="parking">
+                        <legend>Parking</legend>
+                        <label class="size_room">
+                            Number of vehicles
+                            <input type="number" name="parking" id="parkinginput" min="0" max="22" />
+                        </label>
+                    </fieldset>
                 </fieldset>
-                <fieldset id="quantity_room">
-                    <legend>Number of Room</legend>
-                    <label class="size_room">
-                        Number of Room
-                        <input class="input-field" type="number" id="room" name="room" min="1" max="30" required>
-                    </label>
-                </fieldset>
-                <fieldset id="checkin_date">
-                    <legend>Check-in Date</legend>
-                    <input class="item-12" type="date" id="checkin" name="checkin" required>
-                </fieldset>
-                <fieldset id="checkout_date">
-                    <legend>Check-out Date</legend>
-                    <input class="item-14" type="date" id="checkout" name="checkout" required>
-                </fieldset>
-                <fieldset id="parking">
-                    <legend>Parking</legend>
-                    <label class="size_room">
-                        Number of vehicles
-                        <input type="number" name="parking" id="parkinginput" min="0" max="22" />
-                    </label>
-                </fieldset>
-            </fieldset>
-            <fieldset id="additionalinfo">
-                <legend>Additional Information</legend>
+                <fieldset id="additionalinfo">
+                    <legend>Additional Information</legend>
 
-                <textarea id="feedback" name="feedback" placeholder="Give aditional information"></textarea>
+                    <textarea id="feedback" name="feedback" placeholder="Give aditional information"></textarea>
 
-            </fieldset>
-            <fieldset id="submitbutton">
-                <input type="submit" id="submit" value="Submit"  />
-            </fieldset>
+                </fieldset>
+                <fieldset id="submitbutton">
+                    <input type="submit" id="submit" value="Submit" />
+                </fieldset>
 
 
-        </form>
+            </form>
 
         </article>
 
-    <div class="image_suite">
-        <img src="images/room.jpg" alt="Room from hotel">
-        <img src="images/bathroom.jpg" alt="Bathroom from hotel">
-    </div>
+        <div class="image_suite">
+            <img src="images/room.jpg" alt="Room from hotel">
+            <img src="images/bathroom.jpg" alt="Bathroom from hotel">
+        </div>
     </main>
     <footer>
 
