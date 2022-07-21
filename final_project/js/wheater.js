@@ -5,7 +5,7 @@ const wSpeed = document.querySelector(".windSpeed");
 const wChill = document.querySelector(".wChill");
 
 // Creating a variable with the API URL
-const api = "https://api.openweathermap.org/data/2.5/weather?q=Venezuela&imperial&APPID=da28ef0488cf8a1538d20c2db5897dd8";
+const api = "https://api.openweathermap.org/data/2.5/weather?q=Bethesda&imperial&APPID=da28ef0488cf8a1538d20c2db5897dd8";
 let data, newTemp, speed;
 
 async function getWeather() {

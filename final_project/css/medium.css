@@ -1,8 +1,75 @@
 @media only screen and (min-width:35rem) {
 
-    #menu {
-            display: flex;
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    a,
+    span {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .social_media,
+    .other_media {
+        width: 30px;
+    }
+
+    .other_media {
+        display: flex;
+        padding: 2px;
+    }
+
+    .history {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .information {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .build_temple {
+        display: block;
+        margin:10px;
+        background-color: #D3BBDD;    
+        box-shadow: 0 0 20px #202927;
+        padding:5px;
+        text-align: center;       
+       
+    }
+    .build_temple h2{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+        .temple_block li{
             list-style: none;
-            gap: 0.5rem;
+            padding:2px;
+
         }
+.other_information{
+    display: grid;
+    grid-template-columns: 1fr 1fr;}
+
 }
